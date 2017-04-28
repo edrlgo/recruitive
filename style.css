@@ -893,3 +893,80 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/* knappar längst ner */
+.btn-group.fixed {
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	display: inline-block;
+}
+
+.btn.btn-jobb {
+	height: 50px;
+	border-radius: 0;
+	font-family: 'greycliffbold', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-top: 10px;
+	color: #FFF;
+	text-decoration: underline;
+	background: #282828;
+	text-align: center;
+	width: 20%;
+}
+
+.btn.btn-cv {
+	height: 60px;
+	font-family: 'greycliffbold', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	color: #FFF;
+	text-decoration: underline;
+	background: #B5231F;
+	text-align: center;
+	margin: 0;
+	border-top-left-radius: 12px !important;
+	border-top-right-radius: 12px !important;
+	width: 60%;
+}
+
+.btn.btn-facebook {
+	height: 50px;
+	border-radius: 0;
+	font-family: 'greycliffbold', sans-serif;
+	font-size: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-top: 10px;
+	color: #FFF;
+	text-decoration: underline;
+	font-weight: normal;
+	background: #3B5998;
+	color: #FFF;
+	text-align: center;
+	width: 10%;
+}
+
+.btn.btn-instagram {
+	height: 50px;
+	border-radius: 0;
+	font-family: 'greycliffbold', sans-serif;
+	font-size: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-top: 10px;
+	color: #FFF;
+	text-decoration: underline;
+	font-weight: normal;
+	background: #4C68D7;
+	color: #FFF;
+	text-align: center;
+	width: 10%;
+}
