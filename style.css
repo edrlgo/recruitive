@@ -1038,7 +1038,7 @@ object {
 .btn.btn-jobb {
 	height: 50px;
 	border-radius: 0;
-	font-family: 'GreycliffCF', sans-serif;
+	font-family: 'greycliffregular', sans-serif;
 	font-weight: normal;
 	font-size: 20px;
 	padding-top: 13px;
@@ -1053,7 +1053,7 @@ object {
 
 .btn.btn-cv {
 	height: 60px;
-	font-family: 'GreycliffCF', sans-serif;
+	font-family: 'greycliffregular', sans-serif;
 	font-weight: normal;
 	font-size: 20px;
 	padding-top: 13px;
@@ -1167,4 +1167,57 @@ object {
 
 .social-links a {
 	padding-left: 20px;
+}
+
+/* site-footer */
+.site-footer {
+	border-top: 4px solid #BB2A28;
+	background: #FBF8F6;
+	width: 100%;
+	padding: 69px 163px 100px 163px;
+}
+
+.site-footer .footer-header {
+	font-family: 'greycliffregular', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: justify;
+	color: #BB2A28;
+	text-transform: uppercase;
+}
+
+.site-footer .footer-content {
+	font-family: 'greycliffbold', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #BB2A28;
+}
+
+.site-footer .footer-list {
+	list-style-type: none;
+	display: inline;
+}
+
+.site-footer .footer-link {
+	font-family: 'greycliffbold', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #BB2A28;
+}
+
+.site-footer .btn.btn-footer {
+	border: 2px solid #282828;
+	border-radius: 0;
+	padding: 18px 56px;
+	color: #282828;
+	font-family: 'greycliffbold', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.site-footer .footer-copyright {
+	font-family: 'greycliffregular', sans-serif;
+	font-size: 8px;
+	color: #BB2A28;
 }
