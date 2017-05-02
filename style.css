@@ -1102,6 +1102,32 @@ object {
 	width: 10%;
 }
 
+@media screen and (max-width: 768px) {
+	.btn-group.fixed {
+		height: 50px;
+	}
+
+	.btn.btn-jobb {
+		display: none;
+	}
+
+	.btn.btn-cv {
+		height: 50px;
+		text-decoration: none;
+		border-radius: 0 !important;
+		vertical-align: middle;
+		width: 100%;
+	}
+
+	.btn.btn-facebook {
+		display: none;
+	}
+
+	.btn.btn-instagram {
+		display: none;
+	}
+}
+
 /* flex-center */
 .flex-container {
   display: -webkit-box;

@@ -16,21 +16,21 @@
 	<footer id="colophon" class="site-footer flex-container" role="contentinfo">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
-					<h4 class="footer-header">Kontakt</h4>
+				<div class="col-sm-12 col-md-4">
+					<h3 class="footer-header">Kontakt</h3>
 					<p class="footer-content">Ibland vill man prata med en människa. Hör av dig!</p>
 					<a href="#" class="btn btn-footer">Gå vidare</a>
 				</div>
-				<div class="col-sm-4">
-					<h4 class="footer-header">Du hittar oss på</h4>
+				<div class="col-sm-12 col-md-4">
+					<h3 class="footer-header">Du hittar oss på</h3>
 					<ul class="footer-list">
 						<li><a href="#" class="footer-link">LinkedIn</a></li>
 						<li><a href="#" class="footer-link">Instagram</a></li>
 						<li><a href="#" class="footer-link">Facebook</a></li>
 					</ul>
 				</div>
-				<div class="col-sm-4">
-					<h4 class="footer-header">Företagsinformation</h4>
+				<div class="col-sm-12 col-md-4">
+					<h3 class="footer-header">Företagsinformation</h3>
 					<p class="footer-content">Recruitive AB<br />
 					<a href="tel:0868442100" class="footer-link">08-684 42 100</a><br />
 					<a href="mailto:info@recruitive.se" class="footer-link">info@recruitive.se</a></p>
