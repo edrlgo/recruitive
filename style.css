@@ -1205,7 +1205,7 @@ object {
 
 .site-footer .footer-header {
 	font-family: 'greycliffregular', sans-serif;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 600;
 	text-align: justify;
 	color: #BB2A28;
@@ -1214,7 +1214,7 @@ object {
 
 .site-footer .footer-content {
 	font-family: 'greycliffbold', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #BB2A28;
 }
@@ -1226,7 +1226,7 @@ object {
 
 .site-footer .footer-link {
 	font-family: 'greycliffbold', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: bold;
 	text-decoration: underline;
 	color: #BB2A28;
