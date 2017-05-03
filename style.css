@@ -685,12 +685,13 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
+	float: right;
 }
 
 .main-navigation ul {
 	display: none;
 	list-style: none;
+	float: right;
 	margin: 0;
 	padding-left: 0;
 }
@@ -698,6 +699,7 @@ a:active {
 .main-navigation li {
 	float: right;
 	position: relative;
+	margin: 20px;
 }
 
 .main-navigation a {
@@ -728,11 +730,9 @@ a:active {
 }
 
 .main-navigation ul ul a {
-	width: 200px;
 }
 
 .main-navigation ul ul li {
-
 }
 
 .main-navigation li:hover > a,
