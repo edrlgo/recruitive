@@ -243,8 +243,11 @@ dfn {
 }
 
 h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
+	font-family: 'greycliffheavy', sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	color: #282828;
+	margin-bottom: 30px;
 }
 
 mark {
@@ -413,6 +416,11 @@ h6 {
 }
 
 p {
+	font-family: 'greycliffmedium', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.7;
+	color: #282828;
 	margin-bottom: 1.5em;
 }
 
@@ -1246,4 +1254,9 @@ object {
 	font-family: 'greycliffregular', sans-serif;
 	font-size: 8px;
 	color: #BB2A28;
+}
+
+.site-header-content {
+	text-align: center;
+	padding: 115px 422px;
 }
