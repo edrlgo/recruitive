@@ -17,27 +17,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-4">
-					<h3 class="footer-header">Kontakt</h3>
-					<p class="footer-content">Ibland vill man prata med en människa. Hör av dig!</p>
-					<a href="#" class="btn btn-footer">Gå vidare</a>
+					<?php dynamic_sidebar('footer-area-1'); ?>
 				</div>
 				<div class="col-sm-12 col-md-4">
-					<h3 class="footer-header">Du hittar oss på</h3>
-					<ul class="footer-list">
-						<li><a href="#" class="footer-link">LinkedIn</a></li>
-						<li><a href="#" class="footer-link">Instagram</a></li>
-						<li><a href="#" class="footer-link">Facebook</a></li>
-					</ul>
+					<?php dynamic_sidebar('footer-area-2'); ?>
 				</div>
 				<div class="col-sm-12 col-md-4">
-					<h3 class="footer-header">Företagsinformation</h3>
-					<p class="footer-content">Recruitive AB<br />
-					<a href="tel:0868442100" class="footer-link">08-684 42 100</a><br />
-					<a href="mailto:info@recruitive.se" class="footer-link">info@recruitive.se</a></p>
-				</div>
-				<div class="col-sm-4">
-				</div>
-				<div class="col-sm-4">
+					<?php dynamic_sidebar('footer-area-3'); ?>
 				</div>
 			</div>
 		<!--<p class="footer-copyright">&copy; 2016-<?php echo date("Y"); ?> Recruitive AB. All Rights Reserved.</p>-->
