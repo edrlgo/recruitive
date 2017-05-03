@@ -674,7 +674,6 @@ a:active {
 	clear: both;
 	display: block;
 	float: left;
-	width: 100%;
 }
 
 .main-navigation ul {
@@ -692,6 +691,10 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	font-family: 'greycliffmedium', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #282828;
 }
 
 .main-navigation ul ul {
