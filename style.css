@@ -262,6 +262,13 @@ h2.job-header {
 	font-weight: bold;
 }
 
+h3 {
+	font-family: 'greycliffregular', sans-serif;;
+	font-size: 24px;
+	font-weight: 500;
+	color: #282828;
+}
+
 mark {
 	background: #ff0;
 	color: #000;
@@ -1287,4 +1294,29 @@ object {
 .the-content {
 	width: 100%;
 	padding: 50px 0px 50px 0px;
+}
+
+/* kontakt */
+.site-about-us-photo {
+	width: 350px;
+	margin-bottom: 30px;
+}
+
+.site-about-us-photo img {
+	width: 350px;
+	border-radius: 100%;
+}
+
+.site-about-us-role {
+	font-family: 'greycliffbold', sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	color: #BB2A28;
+}
+
+.site-about-us-link {
+	font-family: 'greycliffregular', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #282828;
 }
