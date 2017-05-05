@@ -7,12 +7,12 @@
 			<h1> <?php the_field('rubrik'); ?> </h1>
 			<p> <?php the_field('content_under'); ?> </p>
 		</div>
-		<div class="row">
+	</div>
+	<div class="row flexcenter">
 				<div class="col-sm-12 col-lg-4">
 					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
 				</div>
 		</div>
-	</div>
 
 <?php
 get_sidebar();
