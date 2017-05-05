@@ -11,7 +11,7 @@
 				</div>
 				<div class="col-sm-12 col-md-6">
 					<h2 class="job-header"> <?php the_field('liten-rubrik'); ?> </h2>
-					<!-- SENASTE JOBBEN -->
+					<iframe id="jobadlist" width="620" height="400" scrolling="no" src="http://cv-recruitive-se.app.intelliplan.eu/JobAd/ShortList?class=nomasterpage&top=4"></iframe>
 				</div>
 			</div>
 		</div>
