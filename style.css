@@ -1288,13 +1288,9 @@ object {
 }
 
 .site-index-header-content,
-.site-index-news-content {
-	padding: 0px 50px 0px 50px;
-}
-
+.site-index-news-content,
 .the-content {
-	width: 100%;
-	padding: 50px 0px 50px 0px;
+	padding: 0px 50px 0px 50px;
 }
 
 /* kontakt */
@@ -1324,4 +1320,47 @@ object {
 	font-weight: 500;
 	color: #282828;
 	text-align: center;
+}
+
+/* tjänster */
+#fast-links {
+	display: inline;
+	list-style-type: none;
+	margin-bottom: 50px;
+}
+
+#fast-links li {
+	font-family: 'greycliffbold', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #282828;
+}
+
+#fast-links li a {
+	text-decoration: underline;
+}
+
+#fast-links li a:hover {
+	color: #BB2A28;
+}
+
+.tjanster-box {
+	width: 670px;
+	height: 500px;
+}
+
+.tjanster-header {
+	font-family: 'greycliffregular', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	text-decoration: underline;
+	color: #FFF;
+}
+
+.tjanster-content {
+	font-family: 'greycliffregular', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #FFF;
 }
