@@ -16,12 +16,15 @@
 			</div>
 		</div>
 	</div>
-	<div class="the-content margin-bot flexcenter">
+	<div class="site-index-news-content">
 	
 			<h2> <?php the_field('mellan-rubrik') ?> </h2>
-			<!-- NYHETER -->
+			
+			<div class="the-content margin-bot">
+			<!-- NYTHETER -->
+			</div>
 
-		</div>
+	</div>
 
 <?php
 get_sidebar();

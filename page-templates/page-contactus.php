@@ -9,10 +9,10 @@
 		</div>
 	</div>
 	<div class="row flexcenter">
-				<div class="col-sm-12 col-lg-4">
-					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
-				</div>
-		</div>
+			<div class="col-sm-12 col-lg-4">
+				<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
+			</div>
+	</div>
 
 <?php
 get_sidebar();
