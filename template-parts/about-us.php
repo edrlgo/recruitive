@@ -1,4 +1,6 @@
-<div class="site-about-us-photo">
+<div class="site-about-us-contact">
+
+<div class="site-about-us-photo flexcenter">
 
 	<?php
 
@@ -19,3 +21,5 @@
 <a class="site-about-us-link" href="tel:<?php the_field('phone-number'); ?>"> <?php the_field('phone-number'); ?> </a>
 <br />
 <a class="site-about-us-link" href="mailto:<?php the_field('email'); ?>"> <?php the_field('email'); ?> </a>
+
+</div>

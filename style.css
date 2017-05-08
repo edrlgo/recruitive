@@ -1294,16 +1294,21 @@ object {
 }
 
 /* kontakt */
-.site-about-us-photo {
-	width: 350px;
-	margin-bottom: 30px;
+.site-about-us-contact {
 	text-align: center;
+	margin-bottom: 50px;
+}
+
+.site-about-us-photo {
+	display: block;
+	width: 200px;
+	margin: auto;
+	margin-bottom: 30px;
 }
 
 .site-about-us-photo img {
-	width: 350px;
+	width: inherit;
 	border-radius: 100%;
-	text-align: center;
 }
 
 .site-about-us-role {
@@ -1311,7 +1316,6 @@ object {
 	font-size: 18px;
 	font-weight: 900;
 	color: #BB2A28;
-	text-align: center;
 }
 
 .site-about-us-link {
@@ -1319,7 +1323,6 @@ object {
 	font-size: 18px;
 	font-weight: 500;
 	color: #282828;
-	text-align: center;
 }
 
 /* tjänster */

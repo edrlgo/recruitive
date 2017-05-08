@@ -8,10 +8,38 @@
 			<p> <?php the_field('content_under'); ?> </p>
 		</div>
 	</div>
-	<div class="row flexcenter">
-			<div class="col-sm-12 col-lg-4">
-				<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
-			</div>
+	<div class="the-content">
+		<div class="row">
+				<div class="col-sm-12 col-lg-3">
+					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
+				</div>
+
+				<div class="col-sm-12 col-lg-3">
+					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
+				</div>
+
+				<div class="col-sm-12 col-lg-3">
+					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
+				</div>
+
+				<div class="col-sm-12 col-lg-3">
+					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
+				</div>
+		</div>
+
+		<div class="row">
+				<div class="col-sm-12 col-lg-4">
+					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
+				</div>
+
+				<div class="col-sm-12 col-lg-4">
+					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
+				</div>
+
+				<div class="col-sm-12 col-lg-4">
+					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
+				</div>
+		</div>
 	</div>
 
 <?php
