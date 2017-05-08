@@ -6,8 +6,10 @@
 		<div class="site-index-header-content">
 			<div class="row">
 				<div class="col-sm-12 col-md-6">
-					<h1> <?php the_field('stor-rubrik'); ?> </h1>
-					<p> <?php the_field('stor-content_under'); ?> </p>
+					<div id="site-index-header">
+						<h1> <?php the_field('stor-rubrik'); ?> </h1>
+						<p> <?php the_field('stor-content_under'); ?> </p>
+					</div>
 				</div>
 				<div class="col-sm-12 col-md-6">
 					<h2 class="job-header"> <?php the_field('liten-rubrik'); ?> </h2>
