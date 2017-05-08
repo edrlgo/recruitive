@@ -1347,6 +1347,7 @@ object {
 .tjanster-box {
 	width: 670px;
 	height: 500px;
+	background: #000;
 }
 
 .tjanster-header {
