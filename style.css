@@ -1323,6 +1323,13 @@ object {
 }
 
 /* tjänster */
+.no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 #fast-links {
 	display: inline;
 	list-style-type: none;
@@ -1334,9 +1341,13 @@ object {
 	font-size: 20px;
 	font-weight: bold;
 	color: #282828;
+	float: left;
+	padding: 0 20px;
+	text-align: center;
 }
 
 #fast-links li a {
+	color: #282828;
 	text-decoration: underline;
 }
 
@@ -1344,14 +1355,20 @@ object {
 	color: #BB2A28;
 }
 
+.site-tjanster-boxes {
+	width: 100%;
+	padding: 50px;
+}
+
 .tjanster-box {
-	width: 670px;
-	height: 500px;
 	background: #000;
+	width: 100%;
+	padding: 160px 50px;
+	border: 4px solid #F00;
 }
 
 .tjanster-header {
-	font-family: 'greycliffregular', sans-serif;
+	font-family: 'greycliffbold', sans-serif;
 	font-size: 40px;
 	font-weight: 900;
 	text-decoration: underline;

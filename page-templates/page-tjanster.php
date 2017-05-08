@@ -9,27 +9,27 @@
 		</div>
 	</div>
 
-	<div id="the-content">
+	<div class="site-tjanster-boxes flex-container">
 		<ul id="fast-links">
 			<li>Snabblänk:</li>
-			<li><a href="#" class="fast-link"> <?php the_field('link-1'); ?> </a>
-			<li><a href="#" class="fast-link"> <?php the_field('link-2'); ?> </a>
-			<li><a href="#" class="fast-link"> <?php the_field('link-3'); ?> </a>
-			<li><a href="#" class="fast-link"> <?php the_field('link-4'); ?> </a>
-			<li><a href="#" class="fast-link"> <?php the_field('link-5'); ?> </a>
-			<li><a href="#" class="fast-link"> <?php the_field('link-6'); ?> </a>
+			<li><a href="#" class="fast-link"> <?php the_field('link-1'); ?> </a></li>
+			<li><a href="#" class="fast-link"> <?php the_field('link-2'); ?> </a></li>
+			<li><a href="#" class="fast-link"> <?php the_field('link-3'); ?> </a></li>
+			<li><a href="#" class="fast-link"> <?php the_field('link-4'); ?> </a></li>
+			<li><a href="#" class="fast-link"> <?php the_field('link-5'); ?> </a></li>
+			<li><a href="#" class="fast-link"> <?php the_field('link-6'); ?> </a></li>
 		</ul>
 
 		<div class="row">
 			<div class="col-sm-12 col-lg-6">
 				<div id="box-1" class="tjanster-box">
-					<h3 class="tjanster-header"> <?php the_field('link-1'); ?> </h3>
+						<h3 class="tjanster-header"> <?php the_field('link-1'); ?> </h3>
 
-					<p class="tjanster-content"> <?php the_field('content-1') ?> </p>
+						<p class="tjanster-content"> <?php the_field('content-1') ?> </p>
+					</div>
 				</div>
-			</div>
 			<div class="col-sm-12 col-lg-6">
-				<div id="box-1" class="tjanster-box">
+				<div id="box-2" class="tjanster-box">
 					<h3 class="tjanster-header"> <?php the_field('link-2'); ?> </h3>
 
 					<p class="tjanster-content"> <?php the_field('content-2') ?> </p>
@@ -39,14 +39,14 @@
 
 		<div class="row">
 			<div class="col-sm-12 col-lg-6">
-				<div id="box-1" class="tjanster-box">
+				<div id="box-3" class="tjanster-box">
 					<h3 class="tjanster-header"> <?php the_field('link-3'); ?> </h3>
 
 					<p class="tjanster-content"> <?php the_field('content-3') ?> </p>
 				</div>
 			</div>
 			<div class="col-sm-12 col-lg-6">
-				<div id="box-1" class="tjanster-box">
+				<div id="box-4" class="tjanster-box">
 					<h3 class="tjanster-header"> <?php the_field('link-4'); ?> </h3>
 
 					<p class="tjanster-content"> <?php the_field('content-4') ?> </p>
@@ -56,14 +56,14 @@
 
 		<div class="row">
 			<div class="col-sm-12 col-lg-6">
-				<div id="box-1" class="tjanster-box">
+				<div id="box-5" class="tjanster-box">
 					<h3 class="tjanster-header"> <?php the_field('link-5'); ?> </h3>
 
 					<p class="tjanster-content"> <?php the_field('content-5') ?> </p>
 				</div>
 			</div>
 			<div class="col-sm-12 col-lg-6">
-				<div id="box-1" class="tjanster-box">
+				<div id="box-6" class="tjanster-box">
 					<h3 class="tjanster-header"> <?php the_field('link-6'); ?> </h3>
 
 					<p class="tjanster-content"> <?php the_field('content-6') ?> </p>
