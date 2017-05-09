@@ -11,21 +11,45 @@
 
 	<div class="the-content">
 
-		<?php if( have_rows('contact_row') ): the_row(); ?>
+		<?php 
+
+		if( have_rows('contact_row') ): 
+
+		while( have_rows('contact_row') ): the_row();
+
+		?>
 		
 		<div class="row">
 
-				<?php while( have_rows('contact_row') ): ?>
+				<?php
+
+				if( have_rows('contact_person') ) :
+
+				while( have_rows('contact_person') ): the_row();
+
+				?>
 
 				<div class="col-sm-12 col-lg-3">
-					<?php get_template_part( 'template-parts/about-us', get_post_format() ); ?>
+					<?php get_template_part( 'template-parts/contact-person', get_post_format() ); ?>
 				</div>
 
-				<?php endwhile; ?>
+				<?php
+
+				endwhile;
+
+				endif;
+
+				?>
 
 		</div>
 
-		<?php endif; ?>
+		<?php 
+
+		endwhile;
+
+		endif; 
+
+		?>
 
 	</div>
 
