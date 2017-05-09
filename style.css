@@ -1145,20 +1145,30 @@ object {
 		display: none;
 	}
 
-	.btn.btn-cv {
-		height: 50px;
-		text-decoration: none;
-		border-radius: 0 !important;
-		vertical-align: middle;
-		width: 100%;
-	}
-
 	.btn.btn-facebook {
 		display: none;
 	}
 
 	.btn.btn-instagram {
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.btn.btn-cv {
+		height: 50px;
+		text-decoration: none;
+		border-radius: 0 !important;
+		vertical-align: middle;
+		overflow: hidden;
+		width: 100%;
+	}
+}
+
+/* responsive menu-button */
+@media screen and (max-width: 768px) {
+	#responsive-menu-button {
+		
 	}
 }
 
@@ -1288,13 +1298,32 @@ object {
 }
 
 .site-index-header-content,
+.site-index-jobs,
 .site-index-news-content,
 .the-content {
-	padding: 0px 50px 0px 50px;
+	padding: 0px 50px;
 }
 
 #site-index-header {
-	padding: 100px 50px 100px 50px;
+	padding: 100px 50px;
+}
+
+@media screen and (max-width: 768px) {
+	.site-header-content {
+		text-align: center;
+		padding: 12px;
+	}
+
+	.site-index-header-content,
+	.site-index-jobs,
+	.site-index-news-content,
+	.the-content {
+		padding: 12px;
+	}
+
+	#site-index-header {
+		padding: 12px;
+	}
 }
 
 /* kontakt */
@@ -1330,13 +1359,13 @@ object {
 }
 
 /* tjänster */
-#fast-links {
+#fast-links-menu {
 	display: inline;
 	list-style-type: none;
 	margin-bottom: 50px;
 }
 
-#fast-links li {
+#fast-links-menu li {
 	font-family: 'greycliffbold', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
@@ -1346,12 +1375,12 @@ object {
 	text-align: center;
 }
 
-#fast-links li a {
+#fast-links-menu li a {
 	color: #282828;
 	text-decoration: underline;
 }
 
-#fast-links li a:hover {
+#fast-links-menu li a:hover {
 	color: #BB2A28;
 }
 
@@ -1381,4 +1410,10 @@ object {
 	font-weight: bold;
 	line-height: 1.5;
 	color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+	#fast-links-menu {
+		text-align: center;
+	}
 }

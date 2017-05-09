@@ -9,8 +9,8 @@
 		</div>
 	</div>
 
-	<div class="site-tjanster-boxes flex-container">
-		<ul id="fast-links">
+	<div class="the-content">
+		<ul id="fast-links-menu">
 			<li>Snabblänk:</li>
 			<li><a href="#" class="fast-link"> <?php the_field('link-1'); ?> </a></li>
 			<li><a href="#" class="fast-link"> <?php the_field('link-2'); ?> </a></li>
@@ -19,7 +19,9 @@
 			<li><a href="#" class="fast-link"> <?php the_field('link-5'); ?> </a></li>
 			<li><a href="#" class="fast-link"> <?php the_field('link-6'); ?> </a></li>
 		</ul>
+	</div>
 
+	<div class="site-tjanster-boxes flex-container">
 		<div class="row">
 			<div class="col-sm-12 col-lg-6">
 				<div id="box-1" class="tjanster-box">
