@@ -1,4 +1,4 @@
-<?php /* Template Name: Contact Page v2 */ ?>
+<?php /* Template Name: Contact Page */ ?>
 
 <?php get_header(); ?>
 
@@ -23,13 +23,17 @@
 
 				<?php
 
+				$people = get_sub_field('contact_person');  /* räkna antal personer */
+
 				if( have_rows('contact_person') ) :
 
 				while( have_rows('contact_person') ): the_row();
 
+				$count = 12 / count($people); /* dela med antal personer */
+
 				?>
 
-				<div class="col-sm-12 col-lg-3">
+				<div class="col-sm-12 col-lg-<?php echo $count; ?>">
 					<?php get_template_part( 'template-parts/contact-person', get_post_format() ); ?>
 				</div>
 
@@ -47,7 +51,7 @@
 
 		endwhile;
 
-		endif; 
+		endif;
 
 		?>
 
