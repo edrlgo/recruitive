@@ -11,41 +11,42 @@
 
 	<div class="the-content">
 
-		<?php 
+		<?php
 
-		if( have_rows('contact_row') ): 
+		$i = 0;
 
-		while( have_rows('contact_row') ): the_row();
+		$people = get_sub_field('contact_person');  /* räkna antal personer */
+
+		if( have_rows('contact_person') ): 
+
+		while( have_rows('contact_person') ): the_row();
+
+		$contacts = count($people);
 
 		?>
 		
 		<div class="row">
 
-				<?php
-
-				$people = get_sub_field('contact_person');  /* räkna antal personer */
-
-				if( have_rows('contact_person') ) :
-
-				while( have_rows('contact_person') ): the_row();
-
-				$count = 12 / count($people); /* dela med antal personer */
-
-				?>
-
-				<div class="col-sm-12 col-lg-<?php echo $count; ?>">
+				<div class="col-sm-12 col-lg-4">
 					<?php get_template_part( 'template-parts/contact-person', get_post_format() ); ?>
 				</div>
 
-				<?php
+		<?php
 
-				endwhile;
+		$i++;
 
-				endif;
-
-				?>
+		if ($i % 4 == 0 && $i != 0) { ?>
 
 		</div>
+		<div class="row">
+
+		<?php } 
+
+		else if ($i == $contacts) { ?>
+
+		</div>
+
+		<?php } ?>
 
 		<?php 
 
