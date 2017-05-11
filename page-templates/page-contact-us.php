@@ -17,44 +17,36 @@
 
 		$people = get_sub_field('contact_person');  /* räkna antal personer */
 
-		if( have_rows('contact_person') ): 
+		if( have_rows('contact_person') ): ?>
 
-		while( have_rows('contact_person') ): the_row();
+		<div class="row">
+
+		<?php while( have_rows('contact_person') ): the_row();
 
 		$contacts = count($people);
 
 		?>
 		
+		<?php if ($i % 4 == 0 && $i > 0) { ?>
+		</div>
 		<div class="row">
+		<?php } ?>
 
-				<div class="col-sm-12 col-lg-4">
+				<div class="col-sm-12 col-lg-3">
 					<?php get_template_part( 'template-parts/contact-person', get_post_format() ); ?>
 				</div>
 
-		<?php
+		<?php 
 
 		$i++;
-
-		if ($i % 4 == 0 && $i != 0) { ?>
-
-		</div>
-		<div class="row">
-
-		<?php } 
-
-		else if ($i == $contacts) { ?>
-
-		</div>
-
-		<?php } ?>
-
-		<?php 
 
 		endwhile;
 
 		endif;
 
 		?>
+
+		</div>
 
 	</div>
 
