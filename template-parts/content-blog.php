@@ -11,59 +11,57 @@
 
 <style>
 
-	.blog-row {
-		clear: both;
+	.blogpost-container {
+		width: 100%;
+		height: 65vh;
+		background-size: cover;
+		background-position: center;
+		overflow: hidden;
+		background-repeat: no-repeat;
 	}
 
-	.blog-left {
-		width: 50%;
-		float: left;
+	.blog-content {
+	    width: 90%;
+	    height: auto;
+	    position: absolute;
+	    left: 50px;
+	    bottom: 50px;
 	}
 
-	.blog-feed {
-		margin: 0 !important;
-	}
-	
-	.blog-container {
-		position: relative;
-	}
-
-
-	.blog-title {
-		position: absolute;
-		bottom: 50px;
-		left: 50px;
-		margin: 0;
-		
-	}
-
-	.blog-title a {
-		color: white;
+	.blog-content h1 {
+		padding:0px;
+		margin:0px;
 		text-decoration: underline;
-		padding: 0;
-		margin: 0	;
+	}
+
+	.blog-content h1 a {
+		color: white;
+	}
+
+	.blogpost-link {
+		width: 100%;
+		height: 100%;
 	}
 
 </style>
 
-<article class="blog-feed" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+		<div class="col-sm-12 col-md-6 col-lg-6 no-m">
+
+			<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
+			<!-- Hämtar featured image -->
+			
+				<div class="blogpost-container" id="post-<?php the_ID(); ?>" <?php post_class(); ?> style="background-image: url('<?php echo $backgroundImg[0]; ?>');">
+
+					<div class="blog-content">
+						
+						<?php the_title( '<h1><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' ); ?>
+					
+					</div><!-- .entry-header -->
+
+				</div><!-- #post-## -->
+			</a>
+
+		</div><!-- COL -->
 
 
-	<div class="entry-header blog-container">
-
-		<?php the_post_thumbnail('full', array('class' => 'bg-img')); ?>
-
-		<?php
-		if ( is_single() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h1 class="entry-title blog-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) : ?> 
-		<?php
-		endif; ?>
-
-	</div><!-- .entry-header -->
-
-</article><!-- #post-## -->
