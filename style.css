@@ -186,6 +186,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #FBF8F6 !important;
 }
 
 article,
@@ -493,6 +494,11 @@ ins {
 
 big {
 	font-size: 125%;
+}
+
+h3 {
+	font-size: font-size: 34px !important;
+	font-weight: 900 !important;
 }
 
 /*--------------------------------------------------------------
@@ -1395,22 +1401,38 @@ object {
 	padding: 0 !important;
 }
 
+
 .box-content {
+	background-color: rgba(0,0,0,0.5);
 	width: 100%;
 	min-height: 70vh !important;
 	background-position: center;
 	overflow: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
+	opacity: 0.5;
+	transition: all 250ms ease-in-out;
+}
+
+.box-content:hover {
+	opacity: 1;
 }
 
 .box-innercontent {
+	opacity: 1;
 	width: 90%;
 	text-align: left;
 }
 
 .box-innercontent h3, .box-innercontent p {
 	color: white;
+}
+
+.box-innercontent h3 {
+	font-family: 'greycliffheavy', sans-serif;
+	font-size: 34px;
+	text-decoration: underline;
+	padding-bottom: 15px;
 }
 
 
