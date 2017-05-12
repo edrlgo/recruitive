@@ -20,7 +20,7 @@
 			<li><a href="#" class="fast-link"> <?php the_field('link-6'); ?> </a></li>
 		</ul>
 
-		<div class="site-tjanster-boxes flex-container">
+		<div class="site-tjanster-boxes">
 				<div class="row">
 					<div class="col-sm-12 col-lg-6">
 						<div id="box-1" class="tjanster-box">
