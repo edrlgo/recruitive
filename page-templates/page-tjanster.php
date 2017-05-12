@@ -26,55 +26,116 @@
 
 		<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-12 col-lg-6">
-						<div id="box-1" class="tjanster-box">
-								<h3 class="tjanster-header"> <?php the_field('link-1'); ?> </h3>
+					<div class="col-sm-12 col-md-6 col-lg-6">
 
-								<p class="tjanster-content"> <?php the_field('content-1') ?> </p>
+						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_1'); ?>)">
+
+							<div class="box-innercontent">
+								
+								<h3><?php the_field('link-1'); ?></h3>
+
+								<p><?php the_field('content-1') ?></p>
+
 							</div>
-						</div>
-					<div class="col-sm-12 col-lg-6">
-						<div id="box-2" class="tjanster-box">
-							<h3 class="tjanster-header"> <?php the_field('link-2'); ?> </h3>
 
-							<p class="tjanster-content"> <?php the_field('content-2') ?> </p>
 						</div>
-					</div>	
-				</div>
+
+					</div> <!-- COL -->
+
+					<div class="col-sm-12 col-md-6 col-lg-6">
+
+						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_2'); ?>)">
+
+							<div class="box-innercontent">
+								
+								<h3><?php the_field('link-2'); ?></h3>
+
+								<p><?php the_field('content-2') ?></p>
+
+							</div>
+
+						</div>
+
+					</div> <!-- COL -->
+
+				</div><!-- ROW -->
 
 				<div class="row">
-					<div class="col-sm-12 col-lg-6">
-						<div id="box-3" class="tjanster-box">
-							<h3 class="tjanster-header"> <?php the_field('link-3'); ?> </h3>
 
-							<p class="tjanster-content"> <?php the_field('content-3') ?> </p>
-						</div>
-					</div>
-					<div class="col-sm-12 col-lg-6">
-						<div id="box-4" class="tjanster-box">
-							<h3 class="tjanster-header"> <?php the_field('link-4'); ?> </h3>
+					<div class="col-sm-12 col-md-6 col-lg-6">
 
-							<p class="tjanster-content"> <?php the_field('content-4') ?> </p>
+						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_3'); ?>)">
+
+							<div class="box-innercontent">
+								
+								<h3><?php the_field('link-3'); ?></h3>
+
+								<p><?php the_field('content-3') ?></p>
+
+							</div>
+
 						</div>
-					</div>	
-				</div>
+
+
+					</div> <!-- COL -->
+
+					<div class="col-sm-12 col-md-6 col-lg-6">
+
+						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_4'); ?>)">
+
+							<div class="box-innercontent">
+								
+								<h3><?php the_field('link-4'); ?></h3>
+
+								<p><?php the_field('content-4') ?></p>
+
+							</div>
+
+						</div>
+
+
+					</div> <!-- COL -->
+
+				</div> <!-- ROW -->
 
 				<div class="row">
-					<div class="col-sm-12 col-lg-6">
-						<div id="box-5" class="tjanster-box">
-							<h3 class="tjanster-header"> <?php the_field('link-5'); ?> </h3>
 
-							<p class="tjanster-content"> <?php the_field('content-5') ?> </p>
-						</div>
-					</div>
-					<div class="col-sm-12 col-lg-6">
-						<div id="box-6" class="tjanster-box">
-							<h3 class="tjanster-header"> <?php the_field('link-6'); ?> </h3>
+					<div class="col-sm-12 col-md-6 col-lg-6">
 
-							<p class="tjanster-content"> <?php the_field('content-6') ?> </p>
+						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_5'); ?>)">
+
+							<div class="box-innercontent">
+								
+								<h3><?php the_field('link-5'); ?></h3>
+
+								<p><?php the_field('content-5') ?></p>
+
+							</div>
+
 						</div>
-					</div>	
-				</div>
+
+
+					</div> <!-- COL -->
+
+					<div class="col-sm-12 col-md-6	 col-lg-6">
+
+						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_6'); ?>)">
+
+							<div class="box-innercontent">
+								
+								<h3><?php the_field('link-6'); ?></h3>
+
+								<p><?php the_field('content-6') ?></p>
+
+							</div>
+
+						</div>
+
+
+					</div> <!-- COL -->
+
+				</div> <!-- ROW -->
+
 			</div>
 	</div>
 

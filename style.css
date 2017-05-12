@@ -1391,6 +1391,24 @@ object {
 	padding: 50px;
 }*/
 
+.box-content {
+	width: 100%;
+	min-height: 70vh !important;
+	background-position: center;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.box-innercontent {
+	width: 90%;
+	text-align: left;
+}
+
+.box-innercontent h3, .box-innercontent p {
+	color: white;
+}
+
 
 .tjanster-box {
 	background: #000;
