@@ -1360,9 +1360,8 @@ object {
 
 /* tjänster */
 #fast-links-menu {
-	display: inline;
+	display: inline-block;
 	list-style-type: none;
-	margin-bottom: 50px;
 }
 
 #fast-links-menu li {
@@ -1371,7 +1370,7 @@ object {
 	font-weight: bold;
 	color: #282828;
 	float: left;
-	padding: 0 20px;
+	padding: 0 15px;
 	text-align: center;
 }
 
@@ -1413,6 +1412,10 @@ object {
 }
 
 @media screen and (max-width: 768px) {
+	#fast-links-menu {
+		display: inline;
+	}
+
 	#fast-links-menu li {
 		float: initial;
 	}
