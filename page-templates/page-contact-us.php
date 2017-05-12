@@ -4,7 +4,7 @@
 
 <?php get_template_part( 'template-parts/page-header', get_post_format() ); ?>
 
-	<div class="the-content">
+	<div class="site-about-us-content">
 
 		<?php
 
