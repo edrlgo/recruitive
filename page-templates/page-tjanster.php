@@ -2,25 +2,29 @@
 
 <?php get_header(); ?>
 
-	<div id="primary" class="content-area flexcenter">
-		<div class="site-header-content">
-			<h1> <?php the_field('rubrik'); ?> </h1>
-			<p> <?php the_field('content_under'); ?> </p>
+<?php get_template_part( 'template-parts/page-header', get_post_format() ); ?>
+
+	<div class="container-fluid">
+
+			<ul id="fast-links-menu">
+
+				<li>Snabblänk:</li>
+				<li><a href="#" class="fast-link"> <?php the_field('link-1'); ?> </a></li>
+				<li><a href="#" class="fast-link"> <?php the_field('link-2'); ?> </a></li>
+				<li><a href="#" class="fast-link"> <?php the_field('link-3'); ?> </a></li>
+				<li><a href="#" class="fast-link"> <?php the_field('link-4'); ?> </a></li>
+				<li><a href="#" class="fast-link"> <?php the_field('link-5'); ?> </a></li>
+				<li><a href="#" class="fast-link"> <?php the_field('link-6'); ?> </a></li>
+
+			</ul>
+
 		</div>
+
 	</div>
 
 	<div class="the-content">
-		<ul id="fast-links-menu">
-			<li>Snabblänk:</li>
-			<li><a href="#" class="fast-link"> <?php the_field('link-1'); ?> </a></li>
-			<li><a href="#" class="fast-link"> <?php the_field('link-2'); ?> </a></li>
-			<li><a href="#" class="fast-link"> <?php the_field('link-3'); ?> </a></li>
-			<li><a href="#" class="fast-link"> <?php the_field('link-4'); ?> </a></li>
-			<li><a href="#" class="fast-link"> <?php the_field('link-5'); ?> </a></li>
-			<li><a href="#" class="fast-link"> <?php the_field('link-6'); ?> </a></li>
-		</ul>
 
-		<div class="site-tjanster-boxes">
+		<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-12 col-lg-6">
 						<div id="box-1" class="tjanster-box">
