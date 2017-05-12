@@ -26,7 +26,7 @@
 
 		<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="col-sm-12 col-md-6 col-lg-6 no-m">
 
 						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_1'); ?>)">
 
@@ -42,7 +42,7 @@
 
 					</div> <!-- COL -->
 
-					<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="col-sm-12 col-md-6 col-lg-6 no-m">
 
 						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_2'); ?>)">
 
@@ -62,7 +62,7 @@
 
 				<div class="row">
 
-					<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="col-sm-12 col-md-6 col-lg-6 no-m">
 
 						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_3'); ?>)">
 
@@ -79,7 +79,7 @@
 
 					</div> <!-- COL -->
 
-					<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="col-sm-12 col-md-6 col-lg-6 no-m">
 
 						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_4'); ?>)">
 
@@ -100,7 +100,7 @@
 
 				<div class="row">
 
-					<div class="col-sm-12 col-md-6 col-lg-6">
+					<div class="col-sm-12 col-md-6 col-lg-6 no-m">
 
 						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_5'); ?>)">
 
@@ -117,7 +117,7 @@
 
 					</div> <!-- COL -->
 
-					<div class="col-sm-12 col-md-6	 col-lg-6">
+					<div class="col-sm-12 col-md-6 col-lg-6 no-m">
 
 						<div class="box-content flexcenter" style="background-image: url(<?php the_field('bild_6'); ?>)">
 

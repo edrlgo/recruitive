@@ -1391,6 +1391,10 @@ object {
 	padding: 50px;
 }*/
 
+.no-m {
+	padding: 0 !important;
+}
+
 .box-content {
 	width: 100%;
 	min-height: 70vh !important;
