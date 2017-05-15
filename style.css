@@ -1465,6 +1465,17 @@ object {
 		}
 
 		.site-header-content {
-		text-align: center;
-		width: 50%;
+			text-align: center;
+			width: 50%;
+		}
+
+		@media screen and (max-width: 768px) {
+			.content-area {
+				width: 100%;
+				height: initial;
+			}
+
+			.site-header-content {
+				width: 90%;
+			}
 		}
