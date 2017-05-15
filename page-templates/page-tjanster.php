@@ -4,7 +4,6 @@
 
 <?php get_template_part( 'template-parts/page-header', get_post_format() ); ?>
 
-<<<<<<< HEAD
 	<div class="container-fluid">
 
 			<ul id="fast-links-menu">
@@ -139,9 +138,8 @@
 
 			</div>
 	</div>
-=======
+
 <?php get_template_part( 'template-parts/tjanster-boxes', get_post_format() ); ?>
->>>>>>> origin/master
 
 <?php
 get_sidebar();
