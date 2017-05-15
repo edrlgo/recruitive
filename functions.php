@@ -203,3 +203,13 @@ function wpdocs_post_image_html( $html, $post_id, $post_image_id ) {
     return $html;
 }
 add_filter( 'post_thumbnail_html', 'wpdocs_post_image_html', 10, 3 );
+
+/* Google Maps API to display a map */
+function google_map_api( $api ){
+	
+	$api['key'] = 'AIzaSyCMuNqk3zWReizxM1YMOIUGhr7MrOpRUqI';
+	
+	return $api;
+	
+}
+add_filter('acf/fields/google_map/api', 'google_map_api');
