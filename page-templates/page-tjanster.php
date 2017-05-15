@@ -18,8 +18,6 @@
 
 			</ul>
 
-		</div>
-
 	</div>
 
 	<div class="the-content">
@@ -77,6 +75,8 @@
 				</div>
 			</div>
 	</div>
+
+	<div class="padding-50"></div>
 
 <?php
 get_sidebar();
