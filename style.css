@@ -1303,6 +1303,7 @@ object {
 .site-index-header-content,
 .site-index-jobs,
 .site-index-news-content,
+.site-about-us-content,
 .the-content {
 	padding: 0px 50px;
 }
@@ -1392,10 +1393,10 @@ object {
 	color: #BB2A28;
 }
 
-/*.site-tjanster-boxes {
+.site-tjanster-boxes {
 	width: 100%;
 	padding: 50px;
-}*/
+}
 
 .no-m {
 	padding: 0 !important;
@@ -1508,6 +1509,17 @@ object {
 		}
 
 		.site-header-content {
-		text-align: center;
-		width: 50%;
+			text-align: center;
+			width: 50%;
+		}
+
+		@media screen and (max-width: 768px) {
+			.content-area {
+				width: 100%;
+				height: initial;
+			}
+
+			.site-header-content {
+				width: 90%;
+			}
 		}
