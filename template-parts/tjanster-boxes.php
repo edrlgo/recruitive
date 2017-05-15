@@ -16,8 +16,8 @@
 
 		?>
 
-		<li><a href="#" class="fast-link"> <?php the_sub_field('link-1'); ?> </a></li>
-		<li><a href="#" class="fast-link"> <?php the_sub_field('link-2'); ?> </a></li>
+		<li><a href="<?php the_sub_field('link-1-url'); ?>" class="fast-link"> <?php the_sub_field('link-1'); ?> </a></li>
+		<li><a href="<?php the_sub_field('link-2-url'); ?>" class="fast-link"> <?php the_sub_field('link-2'); ?> </a></li>
 
 		<?php endwhile; ?>
 
