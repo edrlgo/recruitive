@@ -1,4 +1,3 @@
-
 <div id="primary" class="content-area flexcenter">
 		
 		<div class="site-header-content">
@@ -7,3 +6,5 @@
 		</div>
 
 </div>
+
+<div class="padding-20"></div>

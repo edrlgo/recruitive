@@ -1490,6 +1490,12 @@ object {
 
 /* Snabbklasser */ 
 
+.padding-20 {
+	height: 12px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
 
 .padding-50 {
 	height: 50px;
