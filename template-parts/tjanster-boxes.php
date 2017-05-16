@@ -10,8 +10,6 @@
 
 	<ul id="fast-links-menu">
 
-		<li>Snabblänk:</li>
-
 		<?php
 
 		while (have_rows('tjanster')) : the_row();
