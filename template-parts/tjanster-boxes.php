@@ -57,9 +57,9 @@
 					<div class="box-content flexcenter" style="background-image: url(<?php echo $bild['url'] ?>)">
 
 						<div class="box-innercontent">
-							<h3 class="tjanster-header"> <?php the_sub_field('link'); ?> </h3>
+							<h3> <?php the_sub_field('link'); ?> </h3>
 
-							<p class="tjanster-content"> <?php the_sub_field('content') ?> </p>
+							<p> <?php the_sub_field('content') ?> </p>
 						</div>
 					</div>
 				</div>
