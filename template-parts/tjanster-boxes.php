@@ -20,13 +20,7 @@
 
 		<li><a href="<?php the_sub_field('link-url'); ?>" class="fast-link"> <?php the_sub_field('link'); ?> </a></li>
 
-		<?php 
-
-		$i++;
-
-		endwhile; 
-
-		?>
+		<?php endwhile; ?>
 
 	</ul>
 
@@ -72,9 +66,15 @@
 					</div>
 				</div>
 
-		</div>
+				<?php 
 
-		<?php endwhile; ?>
+				$i++;
+
+				endwhile; 
+
+				?>
+				
+		</div>
 
 	</div>
 
