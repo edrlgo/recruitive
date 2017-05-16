@@ -60,6 +60,8 @@
 							<h3> <?php the_sub_field('link'); ?> </h3>
 
 							<p> <?php the_sub_field('content') ?> </p>
+
+							<a href="<?php the_sub_field('link-url'); ?>" class="btn btn-readmore">Läs mer</a>
 						</div>
 					</div>
 				</div>

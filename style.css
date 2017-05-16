@@ -1435,6 +1435,10 @@ object {
 	padding-bottom: 15px;
 }
 
+.box-innercontent .btn.btn-readmore {
+	display: none;
+}
+
 @media screen and (max-width: 768px) {
 	#fast-links-menu {
 		display: inline;
@@ -1454,6 +1458,16 @@ object {
 
 	.box-innercontent h3 {
 		font-size: 28px;
+	}
+
+	.box-innercontent .btn.btn-readmore {
+		display: block;
+		border: 2px solid #FFF;
+		border-radius: 0;
+		padding: 4px 12px;
+		color: #FFF;
+		font-family: 'greycliffbold', sans-serif;
+		font-size: 20px;
 	}
 }
 
