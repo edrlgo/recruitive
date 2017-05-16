@@ -45,21 +45,33 @@
 
 		<div class="row">
 
-				<div class="col-sm-12 col-lg-6">
-					<div id="box-1" class="tjanster-box">
-						<h3 class="tjanster-header"> <?php the_sub_field('link-1'); ?> </h3>
+				<div class="col-sm-12 col-md-6 col-lg-6 no-m">
 
-						<p class="tjanster-content"> <?php the_sub_field('content-1') ?> </p>
+				<?php $bild1 = get_sub_field('bild_1'); ?>
+
+					<div class="box-content flexcenter" style="background-image: url(<?php echo $bild1['url'] ?>)">
+
+						<div class="box-innercontent">
+							<h3 class="tjanster-header"> <?php the_sub_field('link-1'); ?> </h3>
+
+							<p class="tjanster-content"> <?php the_sub_field('content-1') ?> </p>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-sm-12 col-lg-6">
-					<div id="box-2" class="tjanster-box">
-						<h3 class="tjanster-header"> <?php the_sub_field('link-2'); ?> </h3>
+				<div class="col-sm-12 col-md-6 col-lg-6 no-m">
 
-						<p class="tjanster-content"> <?php the_sub_field('content-2') ?> </p>
+				<?php $bild2 = get_sub_field('bild_2'); ?>
+
+					<div class="box-content flexcenter" style="background-image: url(<?php echo $bild2['url'] ?>)">
+
+						<div class="box-innercontent">
+							<h3 class="tjanster-header"> <?php the_sub_field('link-2'); ?> </h3>
+
+							<p class="tjanster-content"> <?php the_sub_field('content-2') ?> </p>
+						</div>
 					</div>
-				</div>	
+				</div>
 
 		</div>
 
