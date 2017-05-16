@@ -2,6 +2,8 @@
 
 	<?php
 
+	$i = 0;
+
 	if (have_rows('tjanster')) :
 
 	?>
@@ -16,10 +18,15 @@
 
 		?>
 
-		<li><a href="<?php the_sub_field('link-1-url'); ?>" class="fast-link"> <?php the_sub_field('link-1'); ?> </a></li>
-		<li><a href="<?php the_sub_field('link-2-url'); ?>" class="fast-link"> <?php the_sub_field('link-2'); ?> </a></li>
+		<li><a href="<?php the_sub_field('link-url'); ?>" class="fast-link"> <?php the_sub_field('link'); ?> </a></li>
 
-		<?php endwhile; ?>
+		<?php 
+
+		$i++;
+
+		endwhile; 
+
+		?>
 
 	</ul>
 
@@ -37,38 +44,30 @@
 
 	<div class="container-fluid">
 
-		<?php
-
-		while (have_rows('tjanster')) : the_row();
-
-		?>
-
 		<div class="row">
 
-				<div class="col-sm-12 col-md-6 col-lg-6 no-m">
+				<?php
 
-				<?php $bild1 = get_sub_field('bild_1'); ?>
+				while (have_rows('tjanster')) : the_row();
 
-					<div class="box-content flexcenter" style="background-image: url(<?php echo $bild1['url'] ?>)">
+				/* gör en ny rad på varannan box */
+				if ($i % 2 == 0 && $i > 0) { ?>
 
-						<div class="box-innercontent">
-							<h3 class="tjanster-header"> <?php the_sub_field('link-1'); ?> </h3>
-
-							<p class="tjanster-content"> <?php the_sub_field('content-1') ?> </p>
-						</div>
-					</div>
 				</div>
+				<div class="row">
+
+				<?php } ?>
 
 				<div class="col-sm-12 col-md-6 col-lg-6 no-m">
 
-				<?php $bild2 = get_sub_field('bild_2'); ?>
+				<?php $bild = get_sub_field('bild'); ?>
 
-					<div class="box-content flexcenter" style="background-image: url(<?php echo $bild2['url'] ?>)">
+					<div class="box-content flexcenter" style="background-image: url(<?php echo $bild['url'] ?>)">
 
 						<div class="box-innercontent">
-							<h3 class="tjanster-header"> <?php the_sub_field('link-2'); ?> </h3>
+							<h3 class="tjanster-header"> <?php the_sub_field('link'); ?> </h3>
 
-							<p class="tjanster-content"> <?php the_sub_field('content-2') ?> </p>
+							<p class="tjanster-content"> <?php the_sub_field('content') ?> </p>
 						</div>
 					</div>
 				</div>
