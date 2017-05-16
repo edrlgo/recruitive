@@ -1519,7 +1519,7 @@ object {
 			width: 50%;
 		}
 
-		@media screen and (max-width: 768px) {
+		@media screen and (max-width: 1024px) {
 			.content-area {
 				width: 100%;
 				height: initial;
