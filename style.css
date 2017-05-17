@@ -1171,6 +1171,18 @@ object {
 	}
 }
 
+/* övriga knappar */
+.btn.btn-red {
+	background: none;
+	border: 2px solid #C13252;
+	border-radius: 0;
+	padding: 18px 70px;
+	font-family: 'greycliffbold', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	color: #C13252;
+}
+
 /* responsive menu-button */
 @media screen and (max-width: 768px) {
 	#responsive-menu-button {
