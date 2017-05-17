@@ -55,13 +55,14 @@
 				<?php $bild = get_sub_field('bild'); ?>
 
 					<div class="box-content flexcenter" style="background-image: url(<?php echo $bild['url'] ?>)">
+					<a class="box-link" href="<?php the_sub_field('link-url'); ?>"></a>
 
 						<div class="box-innercontent">
 							<h3> <?php the_sub_field('link'); ?> </h3>
 
 							<p> <?php the_sub_field('content') ?> </p>
 
-							<a href="<?php the_sub_field('link-url'); ?>" class="btn btn-readmore">Läs mer</a>
+							<a class="btn btn-readmore" href="<?php the_sub_field('link-url'); ?>">Läs mer &#187;</a>
 						</div>
 					</div>
 				</div>
