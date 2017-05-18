@@ -1508,6 +1508,30 @@ object {
 	font-weight: 900;
 }
 
+.page-tjanst-box {
+	width: 100%;
+	background: #C13232;
+	padding: 10px 25px;
+	color: #FFF;
+	font-family: 'greycliffheavy', sans-serif;
+	font-weight: 900;
+	line-height: 40px;
+	position: relative;
+}
+
+.page-tjanst-box .page-tjanst-totalt {
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+.page-tjanst-box .page-tjanst-summa {
+	font-size: 34px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	position: absolute;
+	right: 25px;
+}
+
 @media screen and (max-width: 768px) {
 	.page-tjanst-content {
 		padding: 12px;
