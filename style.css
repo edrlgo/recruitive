@@ -1498,6 +1498,16 @@ object {
 	}
 }
 
+/* Tjänst */
+.page-tjanst-content {
+	padding: 50px 200px;
+}
+
+@media screen and (max-width: 768px) {
+	.page-tjanst-content {
+		padding: 12px;
+	}
+}
 
 
 /* Snabbklasser */ 
