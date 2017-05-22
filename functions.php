@@ -141,6 +141,8 @@ function recruitive_ab_scripts() {
 
 	wp_enqueue_script( 'recruitive-ab-tjanst-bemanning', get_template_directory_uri() . '/js/tjanst-bemanning.js', array(), '20170519', true );
 
+	wp_enqueue_script( 'recruitive-ab-tjanst-rekrytering', get_template_directory_uri() . '/js/tjanst-rekrytering.js', array(), '20170522', true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
