@@ -31,7 +31,7 @@ $(function () {
 		var year = $('#rekrytering-year option:selected').val();
 		var category = (10 / 100) * parseInt(price);
 
-		total = (category * year) + parseInt(price);
+		total = (category * (1.1 * year)) + parseInt(price);
 
 		//ändra priset om checkboxarna är ikryssade
 		if ($('#ppa input').is(':checked')) total += 12000;
