@@ -3,7 +3,7 @@ $(function () {
 	var total = 0;
 
 	//ge alla yrken ett värde/pris
-	var rekryteringPrices = [0, 20000, 22000, 15000, 23000, 28000, 39000, 28000, 29000, 29000, 29000, 22000, 22000, 39000];
+	var rekryteringPrices = [0, 20000, 22000, 15000, 23000, 28000, 39000, 28000, 29000, 29000, 29000, 22000, 39000];
 	/*
 	Kundtjänst;20000
 	Teknisksupport;22000
@@ -15,7 +15,6 @@ $(function () {
 	Ekonomiassistent;29000
 	Löneadministratör;29000
 	Administratör;29000
-	Administratör;22000
 	Receptionist;22000
 	Teamledare;39000
 	*/
@@ -32,8 +31,20 @@ $(function () {
 		var year = $('#rekrytering-year option:selected').val();
 		var category = (10 / 100) * parseInt(price);
 
-		total = (category * (year * 1.1) + parseInt(price));
+		total = (category * year) + parseInt(price);
+
+		//ändra priset om checkboxarna är ikryssade
+		if ($('#ppa input').is(':checked')) total += 12000;
+		if ($('#gia input').is(':checked')) total += 12000;
 
 		$('#total').text(total + " sek");
 	});
-})
+
+	//ändra priset om någon av checkboxarna är ikryssade
+	$('#ppa input, #gia input').click(function () {
+		if (this.checked) total += 12000;
+		else total -= 12000;
+
+		$('#total').text(total + " sek");
+	});
+});
