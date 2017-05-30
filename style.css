@@ -1538,7 +1538,7 @@ object {
 	}
 }
 
-/* Control Form 7 */
+/* Contact Form 7 */
 .wpcf7 input[type="text"],
 .wpcf7 input[type="tel"],
 .wpcf7 input[type="email"],
@@ -1668,6 +1668,13 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 .padding-20 {
 	height: 12px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.padding-30 {
+	height: 30px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
