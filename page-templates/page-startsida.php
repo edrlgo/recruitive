@@ -9,6 +9,18 @@
 					<div id="site-index-header">
 						<h1> <?php the_field('stor-rubrik'); ?> </h1>
 						<p> <?php the_field('stor-content_under'); ?> </p>
+						<div class="row">
+							<div class="col-sm-6">
+								<a class="btn btn-red" href=" <?php the_field('startsida-link-1'); ?>">
+									<?php the_field('startsida-link-1-text'); ?>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a class="btn btn-red" href=" <?php the_field('startsida-link-2'); ?>">
+									<?php the_field('startsida-link-2-text'); ?>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6">
