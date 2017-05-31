@@ -1,4 +1,4 @@
-<?php /* Template Name: Tjänst */ ?>
+<?php /* Template Name: Tjänst/Om oss */ ?>
 
 <?php get_header(); ?>
 
