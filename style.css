@@ -1183,6 +1183,24 @@ object {
 	color: #C13252;
 }
 
+.btn.btn-startsida {
+	background: none;
+	border: 2px solid #C13252;
+	border-radius: 0;
+	padding: 18px 35px;
+	font-family: 'greycliffbold', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	color: #C13252;
+}
+
+/* margin på col-sm-* */
+@media screen and (max-width: 768px) {
+	[class*="col-sm-"] {
+		margin-top: 30px;
+	}
+}
+
 /* responsive menu-button */
 @media screen and (max-width: 768px) {
 	#responsive-menu-button {
