@@ -58,6 +58,7 @@
 					<a class="box-link" href="<?php the_sub_field('link-url'); ?>"></a>
 
 						<div class="box-innercontent">
+						
 							<h3> <?php the_sub_field('link'); ?> </h3>
 
 							<p> <?php the_sub_field('content') ?> </p>
