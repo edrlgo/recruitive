@@ -1,4 +1,4 @@
-<div id="primary" class="content-area flexcenter">
+<div id="primary" class="page-header-area flexcenter">
 		
 		<div class="site-header-content">
 			<h1> <?php the_field('rubrik'); ?> </h1>
