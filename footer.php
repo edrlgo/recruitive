@@ -16,17 +16,24 @@
 	<footer id="colophon" class="site-footer flex-container" role="contentinfo">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 col-md-4">
+				<div class="col-sm-12 col-md-3">
 					<?php dynamic_sidebar('footer-area-1'); ?>
 				</div>
-				<div class="col-sm-12 col-md-4">
+				<div class="col-sm-12 col-md-3">
 					<?php dynamic_sidebar('footer-area-2'); ?>
 				</div>
-				<div class="col-sm-12 col-md-4">
+				<div class="col-sm-12 col-md-3">
 					<?php dynamic_sidebar('footer-area-3'); ?>
 				</div>
+				<div class="col-sm-12 col-md-3">
+					<?php dynamic_sidebar('footer-area-4'); ?>
+				</div>
 			</div>
-		<!--<p class="footer-copyright">&copy; 2016-<?php echo date("Y"); ?> Recruitive AB. All Rights Reserved.</p>-->
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<p class="footer-copyright">&copy; 2016-<?php echo date("Y"); ?> Recruitive AB. All Rights Reserved.</p>
+				</div>
+			</div>
 		</div>
 		<!-- .site-info -->
 	</footer><!-- #colophon -->
