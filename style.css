@@ -186,7 +186,8 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #FBF8F6 !important;
+	background-color: #F4F4F4 !important;
+	/*background-color: #FBF8F6 !important;*/
 }
 
 article,
@@ -576,6 +577,12 @@ figure {
 table {
 	margin: 0 0 1.5em;
 	width: 100%;
+}
+
+/* max-width på sidan */
+body, .site-header, .site-footer {
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
@@ -1066,10 +1073,14 @@ object {
 }
 
 /* knappar längst ner */
+.btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group+.btn-group {
+	margin-left: 0 !important;
+}
+
 .btn-group.fixed {
 	width: 100%;
+	max-width: inherit;
 	height: 60px;
-	margin: 0;
 	position: fixed;
 	bottom: 0;
 	display: inline-block;
@@ -1689,6 +1700,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #FBF8F6;
 }
 
 .padding-30 {
@@ -1696,6 +1708,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #FBF8F6;
 }
 
 .padding-50 {
@@ -1703,6 +1716,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #FBF8F6
 }
 
 .padding-75 {
@@ -1710,6 +1724,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #FBF8F6
 }
 
 

@@ -39,7 +39,7 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<div class="btn-group btn-block fixed" role="group">
+<div class="btn-group btn-block fixed margin-btn" role="group">
 	<a href="#" type="button" class="btn btn-jobb">Lediga jobb</a>
 	<a href="#" type="button" class="btn btn-cv">Sök jobb utan CV</a>
 	<a href="https://www.facebook.com/recruitive1" type="button" class="btn btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
