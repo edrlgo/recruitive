@@ -10,21 +10,29 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+
+	<div id="parallax1" class="ftd-image">
+
+	<div class="post-image-ftd" style="background-image: url(<?php the_post_thumbnail( $post_id, 'full' ); ?>;);"></div>
+		
+	</div>
+
+	<header class="flexcenter entry-header">
 		<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
-
 		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php recruitive_ab_posted_on(); ?>
-		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
+		
 	</header><!-- .entry-header -->
+
+	<div class="entry-meta">
+			<?php recruitive_ab_posted_on(); ?>
+		</div><!-- .entry-meta -->
 
 	<div class="entry-content">
 		<?php

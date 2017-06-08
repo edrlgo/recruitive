@@ -1797,6 +1797,26 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 }
 
+/* Template-parts/content.php */
+
+.ftd-image {
+	display: block;
+	width: 100%;
+	height: 50vh;
+	margin: 0 auto;
+	padding: 20px 50px;
+}
+
+.ftd-image img {
+	width: 100%;
+	height: auto;
+}
+
+.entry-content {
+}
+
+
+
 /* Template Parts */
 
 		/* Page-header.php */ 
