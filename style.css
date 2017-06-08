@@ -1093,6 +1093,14 @@ object {
 		width: 100% !important;
 	}
 
+	#responsive-menu {
+		margin-top: 100px !important;
+	}
+
+	#responsive-menu li {
+		text-align: center;
+	}
+
 	#responsive-menu li a {
 		border-bottom: none !important;
 	}
