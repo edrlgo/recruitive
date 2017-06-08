@@ -1758,10 +1758,14 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 /* ERROR 404 */
 
+.error404 .site-content {
+	padding-top: 0px;
+	background-color: #BB2A28;
+}
+
 .error-bg {
-	background-color: #000;
+	padding-top: 100px;
 	height: 100vh;
-	width: 100%;
 }
 	
 .error-content {

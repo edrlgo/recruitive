@@ -18,9 +18,7 @@ get_header(); ?>
 
 					<p>Hoooooppsan! Sidan du försökte ladda verkar ha tagits bort eller laddat fel. Gå tillbaka till startsidan och testa igen senare.</p>
 
-					<div class="btn"></div>
+					<div class="btn">En knapp</div>
 
 				</div>
 		</div>
-<?php
-get_footer();
