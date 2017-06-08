@@ -212,9 +212,16 @@ add_filter( 'post_thumbnail_html', 'wpdocs_post_image_html', 10, 3 );
 /* Google Maps API to display a map */
 function google_map_api( $api ){
 	
-	$api['key'] = 'AIzaSyCMuNqk3zWReizxM1YMOIUGhr7MrOpRUqI';
+	$api['key'] = 'AIzaSyDgtkO8YWTTS0ygXuEGUcm6DSla63rkrZE';
 	
 	return $api;
 	
 }
 add_filter('acf/fields/google_map/api', 'google_map_api');
+
+function acf_init() {
+	
+	acf_update_setting('google_api_key', 'AIzaSyDgtkO8YWTTS0ygXuEGUcm6DSla63rkrZE');
+}
+
+add_action('acf/init', 'acf_init');
