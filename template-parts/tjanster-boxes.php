@@ -7,6 +7,8 @@
 	if (have_rows('tjanster')) :
 
 	?>
+	
+	<div class="flexcenter">
 
 	<ul id="fast-links-menu">
 
@@ -21,6 +23,8 @@
 		<?php endwhile; ?>
 
 	</ul>
+
+	</div>
 
 	<?php endif; ?>
 
