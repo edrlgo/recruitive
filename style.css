@@ -1072,6 +1072,22 @@ object {
 	display: block;
 }
 
+/* responsive menu */
+@media screen and (max-width: 800px) {
+	button#responsive-menu-button {
+		position: absolute !important;
+		background: transparent !important;
+	}
+
+	.responsive-menu-inner::before, .responsive-menu-inner, .responsive-menu-inner::after {
+		background: #B5231F !important;
+	}
+
+	#responsive-menu-container {
+		width: 100% !important;
+	}
+}
+
 /* knappar längst ner */
 .btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group+.btn-group {
 	margin-left: 0 !important;
