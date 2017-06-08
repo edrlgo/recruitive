@@ -46,7 +46,7 @@
 		<div class="row">
 
 			<div class="col-sm-12 col-md-12 col-lg-6">
-				<h3> <?php the_field('city_name'); ?> </h3>
+				<h2> <?php the_field('city_name'); ?> </h2>
 				<p> <?php the_field('find_us'); ?> </p>
 			</div>
 			<div class="col-sm-12 col-md-12 col-lg-6">
