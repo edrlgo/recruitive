@@ -1095,6 +1095,10 @@ object {
 	#responsive-menu-search-box {
 		display: none;
 	}
+
+	.responsive-menu-item-link {
+		font-family: 'greycliffregular', sans-serif;
+	}
 }
 
 /* knappar längst ner */
