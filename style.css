@@ -1084,7 +1084,16 @@ object {
 	}
 
 	#responsive-menu-container {
+		background: #282828 !important;
 		width: 100% !important;
+	}
+
+	#responsive-menu-wrapper {
+		background: #282828 !important;
+	}
+
+	#responsive-menu-search-box {
+		display: none;
 	}
 }
 
