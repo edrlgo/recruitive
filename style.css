@@ -1786,6 +1786,14 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	color: white;
 }
 
+@media screen and (max-width: 768px) { 
+
+.error-content {
+	width: 90%;
+}
+
+}
+
 /* Template Parts */
 
 		/* Page-header.php */ 
