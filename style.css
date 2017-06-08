@@ -1083,13 +1083,18 @@ object {
 		background: #B5231F !important;
 	}
 
-	#responsive-menu-container {
+	#responsive-menu-container,
+	#responsive-menu-wrapper,
+	#responsive-menu li a {
 		background: #282828 !important;
+	}
+
+	#responsive-menu-container {
 		width: 100% !important;
 	}
 
-	#responsive-menu-wrapper {
-		background: #282828 !important;
+	#responsive-menu li a {
+		border-bottom: none !important;
 	}
 
 	#responsive-menu-search-box {
