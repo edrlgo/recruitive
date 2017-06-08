@@ -1743,6 +1743,26 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	background-color: #FBF8F6
 }
 
+/* ERROR 404 */
+
+.error-bg {
+	background-color: #000;
+	height: 100vh;
+	width: 100%;
+}
+	
+.error-content {
+	width: 50%;
+	height: auto;
+}
+
+.error-content h1 {
+	color: white;
+}
+
+.error-content p {
+	color: white;
+}
 
 /* Template Parts */
 
