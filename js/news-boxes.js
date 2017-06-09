@@ -1,3 +1,3 @@
 $('.vh-box').masonry({
-    columnWidth: '.vh-50'
+    columnWidth: '.vh-75'
 });
