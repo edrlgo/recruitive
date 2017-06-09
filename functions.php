@@ -144,7 +144,11 @@ function recruitive_ab_scripts() {
 
 	wp_enqueue_script( 'recruitive-ab-tjanst-rekrytering', get_template_directory_uri() . '/js/tjanst-rekrytering.js', array(), '20170522', true );
 
+<<<<<<< HEAD
 	wp_enqueue_script( 'recruitive-ab-news-boxes', get_template_directory_uri() . '/js/news-boxes.js', array(), '20170609', true );
+=======
+	wp_enqueue_script( 'recruitive-ab-parallax', get_template_directory_uri() . '/js/parallax.js', array(), '20170522', true );
+>>>>>>> origin/master
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
