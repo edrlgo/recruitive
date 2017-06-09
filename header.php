@@ -17,13 +17,11 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <script src="https://use.fontawesome.com/3f8e8c66c9.js"></script>
-<<<<<<< HEAD
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
-=======
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
->>>>>>> origin/master
 <!-- Facebook -->
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
