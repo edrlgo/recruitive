@@ -1860,3 +1860,28 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 				width: 90%;
 			}
 		}
+
+	/* vh-klasser */
+	.vh-box {
+		background: #F00;
+		max-width: 100%;
+	}
+
+	.vh-box:after {
+		content: '';
+		display: block;
+	}
+
+	.vh-75 {
+		border: 1px solid black;
+		height: 75vh;
+		width: 50%;
+		font-size: 20em;
+	}
+
+	.vh-50 {
+		border: 1px solid black;
+		height: 50vh;
+		width: 50%;
+		font-size: 20em;
+	}

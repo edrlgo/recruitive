@@ -18,6 +18,7 @@
 
 <script src="https://use.fontawesome.com/3f8e8c66c9.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
 <!-- Facebook -->
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
