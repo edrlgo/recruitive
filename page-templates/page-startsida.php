@@ -11,12 +11,12 @@
 						<p> <?php the_field('stor-content_under'); ?> </p>
 						<div class="row">
 							<div class="col-sm-12 col-md-6 col-lg-6">
-								<a class="btn btn-startsida" href=" <?php the_field('startsida-link-1'); ?>">
+								<a class="btn btn-red btn-startsida" href=" <?php the_field('startsida-link-1'); ?>">
 									<?php the_field('startsida-link-1-text'); ?>
 								</a>
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6">
-								<a class="btn btn-startsida" href=" <?php the_field('startsida-link-2'); ?>">
+								<a class="btn btn-red btn-startsida" href=" <?php the_field('startsida-link-2'); ?>">
 									<?php the_field('startsida-link-2-text'); ?>
 								</a>
 							</div>
