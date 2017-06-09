@@ -127,15 +127,6 @@ function recruitive_ab_widgets_init() {
 		'before_title' => '<h3 class="footer-header">',
 		'after_title' => '</h3>',
 	) );
-	register_sidebar( array(
-		'name' => 'Fourth Footer Widget Area',
-		'id' => 'footer-area-4',
-		'description' => 'Appears in fourht footer area',
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget' => '</div>',
-		'before_title' => '<h3 class="footer-header">',
-		'after_title' => '</h3>',
-	) );
 }
 add_action( 'widgets_init', 'recruitive_ab_widgets_init' );
 

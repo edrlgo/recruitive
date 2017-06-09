@@ -1161,7 +1161,7 @@ object {
 	width: 60%;
 }
 
-.btn.btn-facebook {
+.btn.btn-linkedin {
 	height: 50px;
 	border-radius: 0;
 	font-family: 'GreycliffCF', sans-serif;
@@ -1172,7 +1172,7 @@ object {
 	color: #FFF;
 	text-decoration: underline;
 	font-weight: normal;
-	background: #3B5998;
+	background: #0077B5;
 	color: #FFF;
 	text-align: center;
 	width: 10%;
@@ -1200,14 +1200,8 @@ object {
 		height: 50px;
 	}
 
-	.btn.btn-jobb {
-		display: none;
-	}
-
-	.btn.btn-facebook {
-		display: none;
-	}
-
+	.btn.btn-jobb,
+	.btn.btn-linkedin,
 	.btn.btn-instagram {
 		display: none;
 	}
