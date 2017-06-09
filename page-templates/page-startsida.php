@@ -37,15 +37,19 @@
 			<h2> <?php the_field('mellan-rubrik') ?> </h2>
 			
 			<div class="the-content margin-bot">
-				<div class="vh-box">
+				<div class="container">
 
-					<div class="vh-75">75</div>
+					<div class="vh-box">
 
-					<div class="vh-50">50</div>
+						<div class="vh-75">75</div>
 
-					<div class="vh-75">75</div>
+						<div class="vh-50">50</div>
 
-					<div class="vh-50">50</div>
+						<div class="vh-75">75</div>
+
+						<div class="vh-50">50</div>
+
+					</div>
 
 				</div>
 
