@@ -11,11 +11,9 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<div id="parallax1" class="ftd-image">
-
-	<div class="post-image-ftd" style="background-image: url(<?php the_post_thumbnail( $post_id, 'full' ); ?>;);"></div>
-		
-	</div>
+	<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
+			<!-- Hämtar featured image -->
+	<div class="parallax-window" data-position="top" data-z-index="1" data-bleed="10" data-parallax="scroll" data-image-src="<?php echo $backgroundImg[0]; ?>"></div>
 
 	<header class="flexcenter entry-header">
 		<?php

@@ -1838,12 +1838,18 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 /* Template-parts/content.php */
 
-.ftd-image {
-	display: block;
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    z-index: 1 !important;
+}
+
+.post-image-ftd {
 	width: 100%;
-	height: 50vh;
-	margin: 0 auto;
-	padding: 20px 50px;
+	height: 65vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .ftd-image img {
