@@ -11,10 +11,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
-			<!-- Hämtar featured image -->
-	<div class="parallax-window" data-position="top" data-z-index="1" data-bleed="10" data-parallax="scroll" data-image-src="<?php echo $backgroundImg[0]; ?>"></div>
-
 	<header class="flexcenter entry-header">
 		<?php
 		if ( is_single() ) :
@@ -30,7 +26,13 @@
 
 	<div class="entry-meta">
 			<?php recruitive_ab_posted_on(); ?>
-		</div><!-- .entry-meta -->
+	</div><!-- .entry-meta -->
+
+	<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
+			<!-- Hämtar featured image -->
+	<div class="parallax-window" data-speed="0.0" data-position="center" data-z-index="2" data-bleed="10" data-parallax="scroll" data-image-src="<?php echo $backgroundImg[0]; ?>"></div>
+
+	<div class="padding-75"></div>
 
 	<div class="entry-content">
 		<?php
