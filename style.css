@@ -1945,4 +1945,33 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 		}
 	}
 
-	
+/* jobblistan */
+.job-ads-content {
+	width: 100%;
+}
+
+.jobadgrouplistitemcontainer {
+	width: 100%;
+	height: 100px;
+	color: #000;
+	text-align: center;
+	transition: all 250ms ease-in-out;
+}
+
+/* varannan box ska ha grå bakgrundsfärg */
+.jobadgrouplistitemcontainer:nth-child(odd) {
+	background: #F1F1F1;
+}
+
+.jobadgrouplistitemcontainer:hover {
+	background: #BB2A28;
+	color: #FFF;
+}
+
+.jobadgrouplistitemsubject {
+	display: inline-block;
+	font-size: 24px;
+	font-family: 'greycliffbold', sans-serif;
+	text-decoration: underline;
+	margin: 30px 0;
+}
