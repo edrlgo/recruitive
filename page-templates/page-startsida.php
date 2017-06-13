@@ -38,6 +38,14 @@
 			
 		<?php get_template_part( 'template-parts/news-boxes', get_post_format() ); ?>
 
+		<div class="padding-50"></div>
+
+		<div class="flexcenter">
+
+			<a class="btn btn-red" href="<?php the_field('news-link') ?>"> <?php the_field('more-news') ?> </a>
+
+		</div>
+
 	</div>
 
 <?php
