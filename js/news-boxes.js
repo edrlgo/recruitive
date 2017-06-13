@@ -1,3 +1,5 @@
 $('.vh-box').masonry({
-    columnWidth: '.vh-75'
+    itemSelector: '.vh-item',
+    columnWidth: '.vh-sizer',
+    percentSelector: true
 });

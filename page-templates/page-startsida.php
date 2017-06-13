@@ -34,26 +34,9 @@
 	</div>
 	<div class="site-index-news-content">
 	
-			<h2> <?php the_field('mellan-rubrik') ?> </h2>
+		<h2> <?php the_field('mellan-rubrik') ?> </h2>
 			
-			<div class="the-content margin-bot">
-				<div class="container">
-
-					<div class="vh-box">
-
-						<div class="vh-75">75</div>
-
-						<div class="vh-50">50</div>
-
-						<div class="vh-75">75</div>
-
-						<div class="vh-50">50</div>
-
-					</div>
-
-				</div>
-
-			</div>
+		<?php get_template_part( 'template-parts/news-boxes', get_post_format() ); ?>
 
 	</div>
 

@@ -1887,27 +1887,57 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 			}
 		}
 
-	/* vh-klasser */
-	.vh-box {
-		background: #F00;
-		max-width: 100%;
+	/* nyheter-klasser */
+	.news-content {
+		display: table;
+		background-color: rgba(0,0,0,0.5);
+		width: 100%;
+		background-position: center;
+		position: relative;
+		overflow: hidden;
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+		transition: all 250ms ease-in-out;
 	}
 
-	.vh-box:after {
-		content: '';
+	.news-content:hover {
+		opacity: 1;
+	}
+
+	.news-content .news-header {
+		display: table-cell;
+    	vertical-align: bottom;
+		font-size: 40px;
+		font-family: 'greycliffheavy', sans-serif;
+		text-decoration: underline;
+		padding: 50px;
+		color: #FFF;
+	}
+
+	.news-content .news-link {
 		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		text-decoration: none;
+		z-index: 10;
 	}
 
 	.vh-75 {
-		border: 1px solid black;
 		height: 75vh;
-		width: 50%;
-		font-size: 20em;
 	}
 
 	.vh-50 {
-		border: 1px solid black;
 		height: 50vh;
-		width: 50%;
-		font-size: 20em;
 	}
+
+	@media screen and (max-width: 800px) {
+		.news-content .news-header {
+			font-size: 30px;
+		}
+	}
+
+	
