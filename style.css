@@ -175,6 +175,42 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 }
 
 /*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+
+h1 {
+	font-family: 'greycliffheavy', sans-serif;
+   	font-size: 3.6em;
+   	font-weight: 600;
+   	color: #282828;
+   	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: 'greycliffheavy', sans-serif;
+    font-size: 3.2em;
+    font-weight: 900;
+    color: #282828;
+}
+
+h3 {
+	font-family: 'greycliffheavy', sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #282828;
+}
+
+p {
+	font-family: 'greycliffregular', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.8;
+    color: #282828;
+    margin-bottom: 1.5em;
+}
+
+
+/*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
 html {
@@ -245,32 +281,32 @@ dfn {
 	font-style: italic;
 }
 
-h1 {
+/*h1 {
 	font-family: 'greycliffheavy', sans-serif;
 	font-size: 50px;
 	font-weight: 900;
 	color: #282828;
 	margin-bottom: 30px;
-}
+}*/
 
-h2 {
+/*h2 {
 	font-family: 'greycliffheavy', sans-serif;
 	font-size: 36px;
 	font-weight: 900;
 	color: #282828;
-}
+}*/
 
 h2.job-header {
 	font-weight: bold;
 }
 
-h3 {
+/*h3 {
 	font-family: 'greycliffregular', sans-serif;;
 	font-size: 24px;
 	font-weight: 500;
 	color: #282828;
 }
-
+*/
 mark {
 	background: #ff0;
 	color: #000;
@@ -436,14 +472,6 @@ h6 {
 	clear: both;
 }
 
-p {
-	font-family: 'greycliffmedium', sans-serif;
-	font-size: 20px;
-	font-weight: 500;
-	line-height: 1.7;
-	color: #282828;
-	margin-bottom: 1.5em;
-}
 
 dfn,
 cite,
@@ -497,10 +525,10 @@ big {
 	font-size: 125%;
 }
 
-h3 {
+/*h3 {
 	font-size: font-size: 34px !important;
 	font-weight: 900 !important;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Elements
@@ -1895,6 +1923,13 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	margin: 0 auto;
 }
 
+.wp-caption-text {
+    font-size: 12px;
+    font-family: 'greycliffmedium', sans-serif;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #282828;
+}
 
 
 /* Template Parts */
