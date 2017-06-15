@@ -1454,12 +1454,6 @@ object {
 }
 
 @media screen and (max-width: 768px) {
-	.site-header-content {
-		text-align: center;
-		padding: 12px;
-	}
-
-	.site-index-header-content,
 	.site-index-jobs,
 	.site-index-news-content,
 	.the-content {
@@ -1485,7 +1479,7 @@ object {
 	overflow: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
-	opacity: 0.5;
+	opacity: 0.8;
 	transition: all 250ms ease-in-out;
 }
 
@@ -1493,14 +1487,19 @@ object {
 	opacity: 1;
 }
 
+.site-index-header h1, .site-index-header p {
+	color: #FFF;
+}
+
 @media screen and (max-width: 800px) {
-	.site-index-content {
-		opacity: 1;
-		text-align: center;
+	.site-index-header-content {
+		height: initial;
 		padding: 12px;
 	}
 
 	.site-index-header {
+		opacity: 1 !important;
+		text-align: center;
 		padding: 12px;
 	}
 }
