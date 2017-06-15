@@ -1220,7 +1220,7 @@ object {
 }
 
 /* övriga knappar */
-.btn.btn-red {
+.btn-recruitive.btn-red {
 	background: none;
 	border: 2px solid #C13252;
 	border-radius: 0;
@@ -1228,18 +1228,19 @@ object {
 	font-family: 'greycliffbold', sans-serif;
 	font-size: 20px;
 	text-align: justify;
+	text-decoration: none;
 	color: #C13252;
 }
 
-.btn.btn-red:before {
+.btn-recruitive.btn-red:before {
 	background: #C13252;
 }
 
-.btn.btn-red.btn-startsida {
+.btn-recruitive.btn-red.btn-startsida {
 	padding: 18px 35px;
 }
 
-.btn {
+.btn-recruitive {
 	-webkit-transform: perspective(1px) translateZ(0);
  	transform: perspective(1px) translateZ(0);
 	-webkit-transition-property: color;
@@ -1248,7 +1249,7 @@ object {
  	transition-duration: 0.3s;
 }
 
-.btn:before {
+.btn-recruitive:before {
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -1268,11 +1269,11 @@ object {
 	transition-timing-function: ease-out;
 }
 
-.btn:hover, .btn:focus, .btn:active {
+.btn-recruitive:hover, .btn-recruitive:focus, .btn-recruitive:active {
  	color: white !important;
 }
 
-.btn:hover:before, .btn:focus:before, .btn:active:before {
+.btn-recruitive:hover:before, .btn-recruitive:focus:before, .btn-recruitive:active:before {
  	-webkit-transform: scaleY(1);
  	transform: scaleY(1);
 }
@@ -1404,6 +1405,7 @@ object {
 	font-family: 'greycliffbold', sans-serif;
 	font-size: 24px;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 .site-footer .btn.btn-footer:before {
@@ -1743,6 +1745,16 @@ div.wpcf7-mail-sent-ok:before, div.wpcf7-validation-errors:before {
 	vertical-align: middle;
 }
 
+div.wpcf7 a, div.wpcf7 a:visited {
+	color: #282828;
+	text-decoration: underline;
+}
+
+div.wpcf7 a:hover, div.wpcf7 a:active {
+	color: #BB2A28;
+	cursor: pointer;
+}
+
 /* Replace ajax-loader.gif */
 div.wpcf7 form.wpcf7-form span.ajax-loader {
 	width: 16px;
@@ -1950,7 +1962,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	width: 100%;
 }
 
-.jobadgrouplistitemcontainer {
+.jobadgrouplistitemcontainer, .jobadgrouplistalternateitemcontainer, .jobadgrouplistheadercontainer {
 	width: 100%;
 	height: 100px;
 	color: #000;
@@ -1958,8 +1970,8 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	transition: all 250ms ease-in-out;
 }
 
-/* varannan box ska ha grå bakgrundsfärg */
 .jobadgrouplistitemcontainer:nth-child(odd) {
+	/* varannan box ska ha grå bakgrundsfärg */
 	background: #F1F1F1;
 }
 
@@ -1974,4 +1986,10 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	font-family: 'greycliffbold', sans-serif;
 	text-decoration: underline;
 	margin: 30px 0;
+}
+
+@media screen and (max-width: 800px) {
+	.jobadgrouplistitemsubject {
+		font-size: 20px;
+	}
 }
