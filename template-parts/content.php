@@ -30,7 +30,7 @@
 
 	<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
 			<!-- Hämtar featured image -->
-	<div class="parallax-window" data-speed="0.0" data-position="center" data-z-index="2" data-bleed="10" data-parallax="scroll" data-image-src="<?php echo $backgroundImg[0]; ?>"></div>
+	<div class="parallax-window" data-speed="0.5" data-position="center" data-z-index="2" data-bleed="10" data-parallax="scroll" data-image-src="<?php echo $backgroundImg[0]; ?>"></div>
 
 	<div class="padding-75"></div>
 
