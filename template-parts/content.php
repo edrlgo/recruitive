@@ -11,8 +11,12 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="flexcenter entry-header">
-		<?php
+	<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
+			<!-- Hämtar featured image -->
+	<div class="ft-img" style="background: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.2)), url('<?php echo $backgroundImg[0]; ?>');">
+		
+		<div class="blog-title flexblog">
+			<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
@@ -21,18 +25,17 @@
 		if ( 'post' === get_post_type() ) : ?>
 		<?php
 		endif; ?>
-		
-	</header><!-- .entry-header -->
 
-	<div class="entry-meta">
+			<div class="entry-meta aligner-item--bottom">
 			<?php recruitive_ab_posted_on(); ?>
-	</div><!-- .entry-meta -->
+			</div><!-- .entry-meta -->
 
-	<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
-			<!-- Hämtar featured image -->
-	<div class="parallax-window" data-speed="0.5" data-position="center" data-z-index="2" data-bleed="10" data-parallax="scroll" data-image-src="<?php echo $backgroundImg[0]; ?>"></div>
+		</div> <!-- blog title -->
 
-	<div class="padding-75"></div>
+
+	</div>
+
+	<div class="padding-50"></div>
 
 	<div class="entry-content">
 		<?php
@@ -49,7 +52,44 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php recruitive_ab_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+
+	<div class="padding-50"></div>
+
+		<div class="relatedposts">
+		<?php $orig_post = $post;
+		global $post;
+		$tags = wp_get_post_tags($post->ID);
+		if ($tags) {
+		$tag_ids = array();
+		foreach($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
+		$args=array(
+		'tag__in' => $tag_ids,
+		'post__not_in' => array($post->ID),
+		'posts_per_page'=>3, // Number of related posts that will be shown.
+		'caller_get_posts'=>1
+		);
+		$my_query = new wp_query( $args );
+		if( $my_query->have_posts() ) {
+		echo '<h3>Läs även</h3><div class="row">';
+		while( $my_query->have_posts() ) {
+		$my_query->the_post(); 
+		$backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
+		?>
+		<div class="col-sm-12 col-md-4 col-lg-4 rl-p" style="background: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.2)), url('<?php echo $backgroundImg[0]; ?>');"><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"></a>
+		<div class="relatedcontent">
+		<h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+		</div>
+		</div>
+
+
+		<? }
+		echo '</div>';
+		}
+		}
+		$post = $orig_post;
+		wp_reset_query(); ?>
+
+		</div>
+
+		<div class="padding-50"></div>
