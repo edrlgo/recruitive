@@ -1966,6 +1966,10 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	margin: 0 auto;
 }
 
+.entry-content p img .size-full {
+	width: 100%;
+}
+
 .wp-caption-text {
     font-size: 12px;
     font-family: 'greycliffmedium', sans-serif;
@@ -1984,16 +1988,19 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 }
 
 .rl-p {
-	max-width: 350px;
-	height: 50vh;
+	position: relative;
+	height: 65vh;
 	overflow: hidden;
 	background-size: cover !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 }
 
-.relatedthumb {
-	
+.relatedcontent {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	padding: 0 20px 0 0;
 }
 
 /*.relatedthumb img {
