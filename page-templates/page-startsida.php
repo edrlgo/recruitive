@@ -40,17 +40,17 @@
 
 				<div class="col-sm-12 col-md-8">
 					<?php $bild = get_sub_field('index-bild'); ?>
-					<div id="site-index-header" style="background-image: url(<?php echo $bild['index-bild'] ?>)">
+					<div class="site-index-header" style="background-image: url(<?php echo $bild['index-bild'] ?>)">
 
-						<h1 class="index-header"> <?php the_field('stor-rubrik'); ?> </h1>
-						<p class="index-text"> <?php the_field('stor-content_under'); ?> </p>
+						<h1> <?php the_field('stor-rubrik'); ?> </h1>
+						<p> <?php the_field('stor-content_under'); ?> </p>
 						<div class="row">
-							<div class="col-sm-6 col-md-6 col-lg-6">
+							<div class="col-sm-6 col-md-4 col-lg-4">
 								<a class="btn btn-red btn-startsida" href=" <?php the_field('startsida-link-1'); ?>">
 									<?php the_field('startsida-link-1-text'); ?>
 								</a>
 							</div>
-							<div class="col-sm-6 col-md-6 col-lg-6">
+							<div class="col-sm-6 col-md-4 col-lg-4">
 								<a class="btn btn-red btn-startsida" href=" <?php the_field('startsida-link-2'); ?>">
 									<?php the_field('startsida-link-2-text'); ?>
 								</a>
