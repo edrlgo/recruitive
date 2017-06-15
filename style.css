@@ -1220,7 +1220,7 @@ object {
 }
 
 /* övriga knappar */
-.btn-recruitive.btn-red {
+.btn.btn-red {
 	background: none;
 	border: 2px solid #C13252;
 	border-radius: 0;
@@ -1232,15 +1232,15 @@ object {
 	color: #C13252;
 }
 
-.btn-recruitive.btn-red:before {
+.btn.btn-red:before {
 	background: #C13252;
 }
 
-.btn-recruitive.btn-red.btn-startsida {
+.btn.btn-red.btn-startsida {
 	padding: 18px 35px;
 }
 
-.btn-recruitive {
+.btn {
 	-webkit-transform: perspective(1px) translateZ(0);
  	transform: perspective(1px) translateZ(0);
 	-webkit-transition-property: color;
@@ -1249,7 +1249,7 @@ object {
  	transition-duration: 0.3s;
 }
 
-.btn-recruitive:before {
+.btn:before {
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -1269,11 +1269,11 @@ object {
 	transition-timing-function: ease-out;
 }
 
-.btn-recruitive:hover, .btn-recruitive:focus, .btn-recruitive:active {
+.btn:hover, .btn:focus, .btn:active {
  	color: white !important;
 }
 
-.btn-recruitive:hover:before, .btn-recruitive:focus:before, .btn-recruitive:active:before {
+.btn:hover:before, .btn:focus:before, .btn:active:before {
  	-webkit-transform: scaleY(1);
  	transform: scaleY(1);
 }
