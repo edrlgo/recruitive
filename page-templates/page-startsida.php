@@ -39,7 +39,7 @@
 				</div>
 
 				<div class="col-sm-12 col-md-8">
-					<?php $bild = get_sub_field('index-bild'); ?>
+					<?php $bild = get_field('index-bild'); ?>
 					<div class="site-index-header" style="background-image: url(<?php echo $bild['index-bild'] ?>)">
 						<h1> <?php the_field('stor-rubrik'); ?> </h1>
 						<p> <?php the_field('stor-content_under'); ?> </p>
