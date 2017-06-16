@@ -18,8 +18,12 @@
 
 <span class="site-about-us-role"> <?php the_sub_field('contact_title'); ?> </span>
 <br />
+
+<?php if( get_sub_field('contact_phone') ): ?>
 <a class="site-about-us-link" href="tel:<?php the_sub_field('contact_phone'); ?>"> <?php the_sub_field('contact_phone'); ?> </a>
 <br />
+<?php endif; ?>
+
 <a class="site-about-us-link" href="mailto:<?php the_sub_field('contact_email'); ?>"> <?php the_sub_field('contact_email'); ?> </a>
 
 </div>
