@@ -61,23 +61,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="site-index-news-content">
-	
-		<h2> <?php the_field('mellan-rubrik') ?> </h2>
-			
-		<?php /* get_template_part( 'template-parts/news-boxes', get_post_format() ); */ ?>
-
-		<?php if( get_field('more-news') ): ?>
-		<div class="padding-50"></div>
-
-		<div class="flexcenter">
-
-			<a class="btn btn-red" href="<?php the_field('news-link') ?>"> <?php the_field('more-news') ?> </a>
-
-		</div>
-		<?php endif; ?>
-
-	</div>
 
 <?php
 get_sidebar();
