@@ -2008,6 +2008,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 		.page-header-area {
 			width: 100%;
 			height: 65vh;
+			margin-top: 50px;
 		}
 
 		.site-header-content {
