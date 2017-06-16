@@ -1664,7 +1664,7 @@ object {
 
 /* Tjänst */
 .page-tjanst-content {
-	padding: 50px 200px;
+	padding: 100px 200px 0 200px;
 }
 
 .page-tjanst-content h3 {
