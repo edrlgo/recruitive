@@ -1470,14 +1470,9 @@ object {
 	margin-top: 100px;
 	margin-bottom: 50px;
 	width: 100%;
-	height: 75vh;
 }
 
-.site-index-header {
-	padding: 100px 50px;
-	background-color: rgba(0,0,0,0.5);
-	width: 100%;
-	height: 75vh;
+.site-index-bg {
 	background-position: center;
 	overflow: hidden;
 	background-size: cover;
@@ -1486,7 +1481,11 @@ object {
 	transition: all 250ms ease-in-out;
 }
 
-.site-index-header:hover {
+.site-index-header {
+	padding: 100px 50px;
+}
+
+.site-index-bg:hover {
 	opacity: 1;
 }
 
@@ -1500,7 +1499,7 @@ object {
 		padding: 12px;
 	}
 
-	.site-index-header {
+	.site-index-bg {
 		opacity: 1 !important;
 		text-align: center;
 		padding: 12px;

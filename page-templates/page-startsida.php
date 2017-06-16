@@ -4,44 +4,52 @@
 
 	<div id="primary" class="content-area flexcenter">
 		<div class="site-index-header-content">
-			<div class="row">
-
-				<div class="col-sm-12 col-md-5 flexcenter">
-					<div class="site-index-jobs">
-
-						<h3> <?php the_field('liten-rubrik'); ?> </h3>
-						<!--<iframe id="jobadlist" width="620" height="400" scrolling="no" src="http://cv-recruitive-se.app.intelliplan.eu/JobAd/ShortList?class=nomasterpage&top=4"></iframe>-->
-						<div class="jobadshortlistitemcontainer">
-							<span class="jobadshortlisttitlecontainer">
-								Kundtjänstpersonal till Klarna
-							</span>
-						</div>
-
-						<div class="jobadshortlistitemcontainer">
-							<span class="jobadshortlisttitlecontainer">
-								Kundtjänstpersonal till Klarna
-							</span>
-						</div>
-
-						<div class="jobadshortlistitemcontainer">
-							<span class="jobadshortlisttitlecontainer">
-								Kundtjänstpersonal till Klarna
-							</span>
-						</div>
-
-						<div class="jobadshortlistitemcontainer">
-							<span class="jobadshortlisttitlecontainer">
-								Kundtjänstpersonal till Klarna
-							</span>
-						</div>
+	
+	<div class="container-fluid">
 		
-					</div>
-				</div>
+		<div class="row">
 
-				<div class="col-sm-12 col-md-7 flexcenter">
-					<?php $index_bild = get_field('site-index-bild'); ?>
-					<div class="site-index-header" style="background-image: url(<?php echo $index_bild['url']; ?>)">
-						<h1> <?php the_field('stor-rubrik'); ?> </h1>
+			<div class="col-sm-12 col-md-5">
+				
+				<div class="site-index-jobs">
+
+					<h2 class="job-header"> <?php the_field('liten-rubrik'); ?> </h2>
+						
+						<div class="jobadgrouplistitemcontainer">
+							<span class="jobadgrouplistitemsubject">
+								Kundtjänstpersonal till Klarna
+							</span>
+						</div>
+
+						<div class="jobadgrouplistitemcontainer">
+							<span class="jobadgrouplistitemsubject">
+								Kundtjänstpersonal till Klarna
+							</span>
+						</div>
+
+						<div class="jobadgrouplistitemcontainer">
+							<span class="jobadgrouplistitemsubject">
+								Kundtjänstpersonal till Klarna
+							</span>
+						</div>
+
+						<div class="jobadgrouplistitemcontainer">
+							<span class="jobadgrouplistitemsubject">
+								Kundtjänstpersonal till Klarna
+							</span>
+						</div>
+
+				</div><!-- site-index-jobs -->
+
+			</div><!-- COL 4 -->
+
+			<?php $index_bild = get_field('site-index-bild'); ?> 
+
+			<div class="col-sm-12 col-md-7 site-index-bg" style="background-image: url(<?php echo $index_bild['url']; ?>)">
+				
+				<div class="site-index-header">
+					
+					<h1> <?php the_field('stor-rubrik'); ?> </h1>
 						<p> <?php the_field('stor-content_under'); ?> </p>
 						<div class="row">
 							<div class="col-sm-6 col-md-4 col-lg-4">
@@ -55,11 +63,16 @@
 								</a>
 							</div>
 						</div>
-					</div>
-				</div>
 
-			</div>
-		</div>
+				</div><!-- site-index-header -->
+
+			</div><!-- COL 7 -->
+
+		</div><!-- row -->
+
+	</div><!-- container-fluid -->	
+
+</div><!-- site-index-header-content -->
 	</div>
 
 <?php
