@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div id="fast-links" class="container-fluid">
 
 	<?php
 

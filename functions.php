@@ -148,6 +148,8 @@ function recruitive_ab_scripts() {
 
 	wp_enqueue_script( 'recruitive-ab-parallax', get_template_directory_uri() . '/js/parallaxcall.js', array(), '20170522', true );
 
+	wp_enqueue_script( 'recruitive-ab-windowresize', get_template_directory_uri() . '/js/windowresize.js', array(), '20170616', true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
