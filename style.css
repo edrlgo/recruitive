@@ -1962,12 +1962,12 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	background-repeat: no-repeat !important;
 }
 
-.entry-content {
+.entry-content p {
 	max-width: 920px;
-	margin: 0 auto;
+	margin: 1em auto;
 }
 
-.entry-content p img .size-full {
+.entry-content img .size-full {
 	width: 100%;
 }
 
