@@ -3,13 +3,14 @@
 <?php get_header(); ?>
 
 	<div id="primary" class="content-area">
+
 		<div class="site-index-header-content">
 	
 	<div class="container-fluid">
 		
 		<div class="row">
 
-			<div class="col-sm-12 col-md-5">
+			<div class="col-sm-12 col-md-5 flexcenter site-index-job-bg">
 				
 				<div class="site-index-jobs">
 
@@ -45,7 +46,7 @@
 
 			<?php $index_bild = get_field('site-index-bild'); ?> 
 
-			<div class="col-sm-12 col-md-7 site-index-bg" style="background-image: url(<?php echo $index_bild['url']; ?>)">
+			<div class="col-sm-12 col-md-7 site-index-bg flexcenter" style="background: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.2)), url(<?php echo $index_bild['url']; ?>)">
 				
 				<div class="site-index-header">
 					
@@ -73,6 +74,8 @@
 	</div><!-- container-fluid -->	
 
 </div><!-- site-index-header-content -->
+
+<div class="padding-75"></div>
 
 	<?php get_template_part( 'template-parts/news-boxes', get_post_format() ); ?>
 

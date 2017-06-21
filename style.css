@@ -1352,7 +1352,7 @@ object {
 	width: 100%;
 	height: 100px;
 	background: #FFF;
-	position: absolute;
+	position: relative;
 	top: 0;
 	padding: 20px 50px;
 	/*box-shadow: 0px 2px 2px 0px rgba(40, 40, 40, 0.3);*/
@@ -1454,6 +1454,20 @@ object {
 	padding: 0px 50px;
 }
 
+.site-index-jobs {
+	width: 100%;
+}
+
+.site-index-jobs h2 {
+	font-size: 24px;
+}
+
+.site-index-news-content h2 {
+	font-size: 20px; 
+	margin: 0 0 75px 0;
+	text-align: center;
+}
+
 @media screen and (max-width: 768px) {
 	.site-index-jobs,
 	.site-index-news-content,
@@ -1468,18 +1482,23 @@ object {
 
 /* startsida */
 .site-index-header-content {
-	margin-top: 100px;
 	margin-bottom: 50px;
 	width: 100%;
+	height: 75vh;
+}
+
+.site-index-job-bg {
+	height: 75vh;
 }
 
 .site-index-bg {
-	background-position: center;
+	background-position: center !important;
 	overflow: hidden;
-	background-size: cover;
-	background-repeat: no-repeat;
-	opacity: 0.8;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	opacity: 0.4;
 	transition: all 250ms ease-in-out;
+	height: 75vh;
 }
 
 .site-index-header {
@@ -2191,7 +2210,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 .jobadgrouplistitemcontainer, .jobadgrouplistalternateitemcontainer, .jobadgrouplistheadercontainer {
 	width: 100%;
-	height: 100px;
+	height: 75px;
 	color: #000;
 	transition: all 250ms ease-in-out;
 }
@@ -2225,7 +2244,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 .jobadgrouplistitemsubject {
 	display: inline-block;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: 'greycliffbold', sans-serif;
 	text-decoration: underline;
 	margin: 30px 30px;

@@ -1,6 +1,6 @@
-<div class="site-index-news-content">
+<div id="#nyheter" class="site-index-news-content">
 	
-	<h2> Senaste nyheterna </h2>
+	<h2> Nyheter </h2>
 
 	<div class="container-fluid">
 
