@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 
-	<div id="primary" class="content-area flexcenter">
+	<div id="primary" class="content-area">
 		<div class="site-index-header-content">
 	
 	<div class="container-fluid">
@@ -73,6 +73,10 @@
 	</div><!-- container-fluid -->	
 
 </div><!-- site-index-header-content -->
+
+	<?php get_template_part( 'template-parts/news-boxes', get_post_format() ); ?>
+
+
 	</div>
 
 <?php

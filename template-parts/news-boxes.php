@@ -11,6 +11,9 @@
 			<?php
 
 			$counter = 0;
+            $args = array( 'numberposts' => '4' );
+            $recent_posts = wp_get_recent_posts( $args );
+            foreach( $recent_posts as $recent ){ 
 
 			while($counter < 4) {
 
@@ -18,9 +21,9 @@
 
 			<div class="vh-item col-sm-12 col-md-6 col-lg-6 no-m">
 
-				<div class="news-content <?php if($counter % 2 == 1){echo 'vh-50';}else{echo 'vh-75';} ?>" style="background-image: url('http://localhost:8888/recruitive/wp-content/uploads/2017/05/IMAG0139.jpg')">
-					<a class="news-link" href="#"></a>
-					<span class="news-header">Det bästa med att bo i en storstad</span>
+				<div class="news-content <?php if($counter % 2 == 1){echo 'vh-50';}else{echo 'vh-75';} ?>" style="background: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.2)), url('<?php echo get_the_post_thumbnail_url($recent["ID"]); ?>');">
+					<a class="news-link" href="<?php echo get_permalink($recent["ID"]); ?>"></a>
+					<span class="news-header"><?php echo ($recent["post_title"]); ?></span>
 				</div>
 
 			</div>
@@ -30,6 +33,8 @@
 			$counter++;
 
 			}
+
+            }            
 
 			?>
 

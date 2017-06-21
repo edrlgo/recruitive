@@ -2023,6 +2023,17 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	height: auto;
 }*/
 
+
+/* News Boxes BG */
+
+.news-content {
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+}
+
+
+
 /* Template Parts */
 
 		/* Page-header.php */ 

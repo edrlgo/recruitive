@@ -12,7 +12,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
-			<!-- Hämtar featured image -->
+	<!-- Hämtar featured image -->
 	<div class="ft-img" style="background: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.2)), url('<?php echo $backgroundImg[0]; ?>');">
 		
 		<div class="blog-title flexblog">
