@@ -18,7 +18,7 @@ get_header(); ?>
 
 					<p>Hoooooppsan! Sidan du försökte ladda verkar ha tagits bort eller laddat fel. Gå tillbaka till startsidan och testa igen senare.</p>
 
-					<div class="btn">En knapp</div>
+					<a class="btn btn-red" href="/start">Tillbaka till startsidan</a>
 
 				</div>
 		</div>

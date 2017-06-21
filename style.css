@@ -1250,18 +1250,18 @@ object {
 /* övriga knappar */
 .btn.btn-red {
 	background: none;
-	border: 2px solid #C13252;
+	border: 2px solid #B5231F;
 	border-radius: 0;
 	padding: 18px 70px;
 	font-family: 'greycliffbold', sans-serif;
 	font-size: 20px;
 	text-align: justify;
 	text-decoration: none;
-	color: #C13252;
+	color: #B5231F;
 }
 
 .btn.btn-red:before {
-	background: #C13252;
+	background: #B5231F;
 }
 
 .btn.btn-red.btn-startsida {
@@ -1354,7 +1354,7 @@ object {
 	position: absolute;
 	top: 0;
 	padding: 20px 50px;
-	box-shadow: 0px 2px 2px 0px rgba(40, 40, 40, 0.3);
+	/*box-shadow: 0px 2px 2px 0px rgba(40, 40, 40, 0.3);*/
 }
 
 .site-branding img {
@@ -1536,6 +1536,20 @@ object {
 	font-size: 18px;
 	font-weight: 500;
 	color: #282828;
+}
+
+/* Footer coop logos */
+
+.coop-logo-container {
+    background: #FBF8F6;
+    padding-bottom: 75px;
+    width: 100%;
+    display: block;
+}
+
+.coop-logo-1 img, .coop-logo-2 img {
+	width: 100px;
+	height: auto;
 }
 
 /* tjänster */
@@ -1876,7 +1890,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 .error404 .site-content {
 	padding-top: 0px;
-	background-color: #BB2A28;
+	background-color: #FBF8F6;
 }
 
 .error-bg {
@@ -1891,10 +1905,12 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 .error-content h1 {
 	color: white;
+	font-size: 50px;
+	color: #B5231F;
 }
 
 .error-content p {
-	color: white;
+	color: #282828;
 }
 
 @media screen and (max-width: 768px) { 

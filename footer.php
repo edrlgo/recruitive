@@ -34,6 +34,40 @@
 		</div>
 		<!-- .site-info -->
 	</footer><!-- #colophon -->
+
+	<div class="coop-logo-container">
+
+		<div class="container-fluid">
+			
+			<div class="row">
+				
+				<div class="col-sm-12 col-md-6 col-lg-6 flexcenter">
+					
+					<div class="coop-logo-1">
+						 
+						<a href="#" target="_blank"><img src="http://localhost:8888/bravaro/wp-content/uploads/2017/06/SN_Logo.png"/></a>
+
+					</div>
+
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-6 flexcenter">
+					
+					<div class="coop-logo-2">
+						
+						<a href="#" target="_blank"><img src="http://localhost:8888/bravaro/wp-content/uploads/2017/06/bemanning-high.png"/></a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+
+	</div> <!-- .coop-logo-container -->
+
 </div><!-- #page -->
 
 <div class="btn-group btn-block fixed margin-btn" role="group">
