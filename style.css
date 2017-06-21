@@ -1932,6 +1932,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	height: auto;
 	text-align: center;
 	color: #fff;
+	line-height: 1.3;
 }
 
 .entry-meta {
@@ -1994,6 +1995,11 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	background-size: cover !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
+	opacity: 0.6;
+	transition: all 500ms ease-in-out;
+}
+.rl-p:hover {
+	opacity: 1.0;
 }
 
 .relatedcontent {
@@ -2001,6 +2007,13 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	bottom: 20px;
 	left: 20px;
 	padding: 0 20px 0 0;
+	color: white;
+}
+
+.relatedcontent a {
+	color: white;
+	text-decoration: underline;
+	line-height: 1.5;
 }
 
 /*.relatedthumb img {
