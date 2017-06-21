@@ -6,48 +6,32 @@
 
 		<div class="vh-box">
 
-			<!-- bestäm width med hjälp av vh-sizer klassen -->
 			<div class="vh-sizer col-sm-12 col-md-6 col-lg-6"></div>
 
-			<!-- övre vänstra boxen -->
+			<?php
+
+			$counter = 0;
+
+			while($counter < 4) {
+
+			?>
+
 			<div class="vh-item col-sm-12 col-md-6 col-lg-6 no-m">
 
-				<div class="news-content vh-75" style="background-image: url('http://localhost:8888/recruitive/wp-content/uploads/2017/05/IMAG0139.jpg')">
+				<div class="news-content <?php if($counter % 2 == 1){echo 'vh-50';}else{echo 'vh-75';} ?>" style="background-image: url('http://localhost:8888/recruitive/wp-content/uploads/2017/05/IMAG0139.jpg')">
 					<a class="news-link" href="#"></a>
 					<span class="news-header">Det bästa med att bo i en storstad</span>
 				</div>
 
 			</div>
 
-			<!-- övre högra boxen -->
-			<div class="vh-item col-sm-12 col-md-6 col-lg-6 no-m">
+			<?php 
 
-				<div class="news-content vh-50" style="background-image: url('http://localhost:8888/recruitive/wp-content/uploads/2017/05/IMAG0143.jpg')">
-					<a class="news-link" href="#"></a>
-					<span class="news-header">Klarna som arbetsgivare</span>
-				</div>
+			$counter++;
 
-			</div>
+			}
 
-			<!-- nedre högra boxen -->
-			<div class="vh-item col-sm-12 col-md-6 col-lg-6 no-m">
-
-				<div class="news-content vh-75" style="background-image: url('http://localhost:8888/recruitive/wp-content/uploads/2017/05/Modify-your-computer-with-custom-computer-cases-2.jpg')">
-					<a class="news-link" href="#"></a>
-					<span class="news-header">VLOGG: Sök jobb utan CV</span>
-				</div>
-
-			</div>
-
-			<!-- nedre vänstra boxen -->
-			<div class="vh-item col-sm-12 col-md-6 col-lg-6 no-m">
-
-				<div class="news-content vh-50" style="background-image: url('http://localhost:8888/recruitive/wp-content/uploads/2017/05/1.jpg')">
-						<a class="news-link" href="#"></a>
-						<span class="news-header">Personligt brev är inte längre viktigt</span>
-				</div>
-
-			</div>
+			?>
 
 		</div>
 
