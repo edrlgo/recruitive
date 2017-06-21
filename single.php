@@ -44,7 +44,7 @@ get_header(); ?>
 		);
 		$my_query = new wp_query( $args );
 		if( $my_query->have_posts() ) {
-		echo '<h3>Läs även</h3><div class="row">';
+		echo '<h3 class="related-h3">Du kanske också gillar..</h3><div class="row">';
 		while( $my_query->have_posts() ) {
 		$my_query->the_post(); 
 		$backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );

@@ -202,9 +202,9 @@ h3 {
 
 p {
 	font-family: 'greycliffregular', sans-serif;
-    font-size: 1.5em;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 1.8;
+    line-height: 1.9;
     color: #282828;
     margin-bottom: 1.5em;
 }
@@ -1968,8 +1968,9 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 }
 
 .entry-content p {
-	max-width: 920px;
-	margin: 1em auto;
+	max-width: 85%;
+	margin: 40px auto;
+	display: block;
 }
 
 .entry-content iframe {
@@ -1998,14 +1999,21 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	margin: 0 auto;
 }
 
+.relatedposts .related-h3 {
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
 .rl-p {
 	position: relative;
-	height: 65vh;
+	height: 50vh;
 	overflow: hidden;
 	background-size: cover !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
-	opacity: 0.6;
+	opacity: 0.4;
 	transition: all 500ms ease-in-out;
 }
 .rl-p:hover {
