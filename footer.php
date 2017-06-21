@@ -35,13 +35,21 @@
 		<!-- .site-info -->
 	</footer><!-- #colophon -->
 
-	<div class="coop-logo-container">
-
-		<div class="container-fluid">
+	<div class="container-fluid coop-logo-container">
 			
 			<div class="row">
+
+				<div class="coop-box col-sm-12 col-md-4 col-lg-4 flexcenter">
+					
+					<div class="coop-text">
+						
+						<h3>Medlemmar i</h3>
+
+					</div>
+
+				</div>
 				
-				<div class="col-sm-12 col-md-6 col-lg-6 flexcenter">
+				<div class="coop-box col-sm-12 col-md-4 col-lg-4 flexcenter">
 					
 					<div class="coop-logo-1">
 						 
@@ -51,7 +59,7 @@
 
 				</div>
 
-				<div class="col-sm-12 col-md-6 col-lg-6 flexcenter">
+				<div class="coop-box col-sm-12 col-md-4 col-lg-4 flexcenter">
 					
 					<div class="coop-logo-2">
 						
@@ -62,10 +70,7 @@
 				</div>
 
 			</div>
-
-		</div>
 		
-
 	</div> <!-- .coop-logo-container -->
 
 </div><!-- #page -->

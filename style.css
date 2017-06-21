@@ -296,7 +296,7 @@ dfn {
 	color: #282828;
 }*/
 
-h2.job-header {
+h2 .job-header {
 	font-weight: bold;
 }
 
@@ -1540,16 +1540,35 @@ object {
 
 /* Footer coop logos */
 
+.coop-text h3 {
+	opacity: 0.2;
+}
+
+.coop-logo-1, .coop-logo-2 {
+	opacity: 0.2;
+	transition: all 250ms ease-in-out;
+}
+
+.coop-logo-1:hover, .coop-logo-2:hover {
+	opacity: 1;
+}
+
 .coop-logo-container {
+	border-top: 4px solid;
+	border-color: rgba(181, 35, 31, 0.3);
     background: #FBF8F6;
-    padding-bottom: 75px;
+    padding: 50px 0 100px 0;
     width: 100%;
     display: block;
 }
 
 .coop-logo-1 img, .coop-logo-2 img {
-	width: 100px;
+	max-width: 200px;
 	height: auto;
+}
+
+.coop-box {
+	height: 10vh;
 }
 
 /* tjänster */
@@ -2122,6 +2141,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 		text-decoration: underline;
 		padding: 50px;
 		color: #FFF;
+		min-width: 320px;
 	}
 
 	.news-content .news-link {
@@ -2151,6 +2171,16 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 		.vh-75 {
 			height: 50vh;
 		}
+	}
+	@media screen and (max-width: 768px) {
+		.vh-75, .vh-50 {
+			min-height: 75vh;
+		}
+
+		.vh-item {
+			left: 0 !important;
+		}
+
 	}
 
 /* jobblistan */
