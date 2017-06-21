@@ -42,7 +42,8 @@
 
 	<div class="flexcenter">
 
-		<a class="btn btn-red" href="/nyheter"> Fler nyheter </a>
+		<?php echo do_shortcode("[ajax_load_more]"); ?>
+		<!-- <a class="btn btn-red" href="/nyheter"> Fler nyheter </a> -->
 
 	</div>
 
