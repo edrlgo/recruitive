@@ -41,10 +41,9 @@
 	</div>
 
 	<div class="padding-50"></div>
-
 		
 		<!-- <a class="btn btn-red" href="/nyheter"> Fler nyheter </a> -->
-
+		
 </div>
 
 

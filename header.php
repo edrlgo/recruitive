@@ -19,6 +19,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://use.fontawesome.com/3f8e8c66c9.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+<script src="https://embed.small.chat/T4RT5JGFJG5XTQUJQ7.js" async></script>
 
 <!-- Facebook -->
 <script>(function(d, s, id) {

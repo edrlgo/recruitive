@@ -27,8 +27,16 @@
 		endif; ?>
 
 			<div class="entry-meta aligner-item--bottom">
-			<?php recruitive_ab_posted_on(); ?>
-			</div><!-- .entry-meta -->
+
+					<div class="the-author">
+						<span>Skriven av <?php the_author(); ?></span>
+					</div>
+					
+					<div class="the-date">
+						<span>publicerad den <?php the_date('j F, Y'); ?></span>
+					</div>
+
+			</div> <!-- .entry-meta .aligner-item--bottom -->
 
 		</div> <!-- blog title -->
 
