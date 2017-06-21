@@ -15,8 +15,6 @@
             $recent_posts = wp_get_recent_posts( $args );
             foreach( $recent_posts as $recent ){ 
 
-			while($counter < 4) {
-
 			?>
 
 			<div class="vh-item col-sm-12 col-md-6 col-lg-6 no-m">
@@ -31,8 +29,6 @@
 			<?php 
 
 			$counter++;
-
-			}
 
             }            
 
