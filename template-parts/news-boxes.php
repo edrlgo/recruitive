@@ -36,15 +36,14 @@
 
 		</div>
 
+		<?php echo do_shortcode('[ajax_load_more container_type="div" post_type="post" posts_per_page="4" offset="4" pause="true" transition="masonry" masonry_selector=".vh-item" button_label="Fler nyheter" button_loading_label="Laddar nyheter..."]'); ?>
+
 	</div>
 
 	<div class="padding-50"></div>
 
-	<div class="flexcenter">
-
-		<a class="btn btn-red" href="/nyheter"> Fler nyheter </a>
-
-	</div>
+		
+		<!-- <a class="btn btn-red" href="/nyheter"> Fler nyheter </a> -->
 
 </div>
 
