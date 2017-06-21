@@ -1967,11 +1967,13 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	background-repeat: no-repeat !important;
 }
 
-.entry-content p {
+.entry-content p, .entry-content h1, .entry-content h2, .entry-content h3 {
 	max-width: 85%;
 	margin: 40px auto;
 	display: block;
 }
+
+.entry-content
 
 .entry-content iframe {
 	width: 100%;
