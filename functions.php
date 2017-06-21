@@ -150,6 +150,8 @@ function recruitive_ab_scripts() {
 
 	wp_enqueue_script( 'recruitive-ab-windowresize', get_template_directory_uri() . '/js/windowresize.js', array(), '20170616', true );
 
+	wp_enqueue_script( 'recruitive-ab-remove-p', get_template_directory_uri() . '/js/remove-p.js', array(), '20170621', true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
