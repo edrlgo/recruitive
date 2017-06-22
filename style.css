@@ -2262,6 +2262,15 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 	}
 
+
+/* Jobads Container */
+
+.container-job-ad {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
 /* jobblistan */
 .job-ads-content {
 	width: 100%;
