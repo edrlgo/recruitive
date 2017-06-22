@@ -1289,7 +1289,7 @@ object {
 	color: #B5231F;
 }
 
-.btn.btn-red:before {
+.btn.btn-red:before, input[type="submit"]:before {
 	background: #B5231F;
 }
 
