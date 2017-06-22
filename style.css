@@ -1802,6 +1802,10 @@ object {
 	.page-tjanst-content {
 		padding: 12px;
 	}
+
+	.page-tjanst-totalt {
+		visibility: hidden;
+	}
 }
 
 /* Contact Form 7 */
