@@ -1105,6 +1105,10 @@ object {
 	button#responsive-menu-button {
 		position: absolute !important;
 		background: transparent !important;
+		width: 100px !important;
+		height: 100px !important;
+		top: 1px !important;
+		right: 0 !important;
 	}
 
 	.responsive-menu-inner::before, .responsive-menu-inner, .responsive-menu-inner::after {
