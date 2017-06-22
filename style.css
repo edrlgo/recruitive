@@ -1560,13 +1560,33 @@ object {
 
 /* Footer coop logos */
 
-.coop-text h3 {
-	opacity: 0.2;
+.coop-logos h3 {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: .05em;
+	padding-top: 10px;
+	display: inline-block;
+}
+
+.coop-logos {
+
 }
 
 .coop-logo-1, .coop-logo-2 {
-	opacity: 0.2;
+	opacity: 0.5;
 	transition: all 250ms ease-in-out;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.coop-logo-2 a img {
+	width: 150px;
+	height: auto;
+}
+
+.coop-logo-1 a img {
+	width: 100px;
+	height: auto;
 }
 
 .coop-logo-1:hover, .coop-logo-2:hover {

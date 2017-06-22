@@ -29,49 +29,26 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
 					<p class="footer-copyright">&copy; 2016-<?php echo date("Y"); ?> Recruitive AB. All Rights Reserved.</p>
+					
+					<div class="coop-logos">
+
+						<h3>Medlemmar i:</h3>
+						<div class="coop-logo-2">
+							
+							<a href="#" target="_blank"><img src="http://localhost:8888/bravaro/wp-content/uploads/2017/06/bemanning-high.png"/></a>
+
+						</div>
+						<div class="coop-logo-1">
+							 
+							<a href="#" target="_blank"><img src="http://localhost:8888/bravaro/wp-content/uploads/2017/06/SN_Logo.png"/></a>
+
+						</div>
+					</div> <!-- coop-logos -->
 				</div>
 			</div>
 		</div>
 		<!-- .site-info -->
 	</footer><!-- #colophon -->
-
-	<div class="container-fluid coop-logo-container">
-			
-			<div class="row">
-
-				<div class="coop-box col-sm-12 col-md-4 col-lg-4 flexcenter">
-					
-					<div class="coop-text">
-						
-						<h3>Medlemmar i</h3>
-
-					</div>
-
-				</div>
-				
-				<div class="coop-box col-sm-12 col-md-4 col-lg-4 flexcenter">
-					
-					<div class="coop-logo-1">
-						 
-						<a href="#" target="_blank"><img src="http://localhost:8888/bravaro/wp-content/uploads/2017/06/SN_Logo.png"/></a>
-
-					</div>
-
-				</div>
-
-				<div class="coop-box col-sm-12 col-md-4 col-lg-4 flexcenter">
-					
-					<div class="coop-logo-2">
-						
-						<a href="#" target="_blank"><img src="http://localhost:8888/bravaro/wp-content/uploads/2017/06/bemanning-high.png"/></a>
-
-					</div>
-
-				</div>
-
-			</div>
-		
-	</div> <!-- .coop-logo-container -->
 
 </div><!-- #page -->
 
