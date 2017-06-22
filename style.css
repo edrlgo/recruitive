@@ -179,7 +179,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 
 h1 {
-	font-family: 'greycliffheavy', sans-serif;
+	font-family: 'greycliffheavy', sans-serif !important;
    	font-size: 3.6em;
    	font-weight: 600;
    	color: #282828;
@@ -187,21 +187,21 @@ h1 {
 }
 
 h2 {
-	font-family: 'greycliffheavy', sans-serif;
+	font-family: 'greycliffheavy', sans-serif !important;
     font-size: 3.2em;
     font-weight: 900;
     color: #282828;
 }
 
 h3 {
-	font-family: 'greycliffheavy', sans-serif;
+	font-family: 'greycliffheavy', sans-serif !important;
     font-size: 2.5em;
     font-weight: 500;
     color: #282828;
 }
 
 p {
-	font-family: 'greycliffregular', sans-serif;
+	font-family: 'greycliffregular', sans-serif !important;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.9;
@@ -209,6 +209,31 @@ p {
     margin-bottom: 1.5em;
 }
 
+@media screen and (max-width: 768px) {
+
+h1 {
+	font-family: 'greycliffheavy', sans-serif !important;
+   	font-size: 3em;
+   	font-weight: 600;
+   	color: #282828;
+   	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: 'greycliffheavy', sans-serif !important;
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #282828;
+}
+
+h3 {
+	font-family: 'greycliffheavy', sans-serif !important;
+    font-size: 2.2em;
+    font-weight: 500;
+    color: #282828;
+}
+
+}
 
 /*--------------------------------------------------------------
 # Normalize
