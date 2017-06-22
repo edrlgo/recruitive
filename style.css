@@ -1488,7 +1488,7 @@ object {
 }
 
 .site-index-job-bg {
-	height: 75vh;
+	min-height: 75vh;
 }
 
 .site-index-bg {
@@ -1498,7 +1498,7 @@ object {
 	background-repeat: no-repeat !important;
 	opacity: 0.7;
 	transition: all 250ms ease-in-out;
-	height: 75vh;
+	min-height: 75vh;
 }
 
 .site-index-header {
