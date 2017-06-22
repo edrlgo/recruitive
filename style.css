@@ -1915,6 +1915,12 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 	100% { -webkit-transform: rotate(360deg); }
 }
 
+@media screen and (max-width: 800px) {
+	.wpcf7 input[type="tel"], .form-margin {
+		margin-bottom: 25px;
+	}
+}
+
 /* Snabbklasser */ 
 
 .padding-20 {
@@ -2222,7 +2228,7 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 		}
 
 		.vh-item {
-			left: 0 !important;
+			left: -6px !important;
 		}
 
 	}
