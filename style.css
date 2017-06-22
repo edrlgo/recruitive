@@ -1998,7 +1998,6 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 }
 
 .error-bg {
-	padding-top: 100px;
 	height: 100vh;
 }
 	
@@ -2021,6 +2020,10 @@ div.wpcf7 form.wpcf7-form span.ajax-loader.is-active {
 
 .error-content {
 	width: 90%;
+}
+
+.error-bg {
+	height: 85vh;
 }
 
 }
