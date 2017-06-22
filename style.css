@@ -1297,7 +1297,7 @@ object {
 	padding: 18px 35px;
 }
 
-.btn {
+.btn, input[type="submit"] {
 	-webkit-transform: perspective(1px) translateZ(0);
  	transform: perspective(1px) translateZ(0);
 	-webkit-transition-property: color;
@@ -1306,7 +1306,7 @@ object {
  	transition-duration: 0.3s;
 }
 
-.btn:before {
+.btn:before, input[type="submit"]:before {
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -1326,11 +1326,11 @@ object {
 	transition-timing-function: ease-out;
 }
 
-.btn:hover, .btn:focus, .btn:active {
+.btn:hover, .btn:focus, .btn:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
  	color: white !important;
 }
 
-.btn:hover:before, .btn:focus:before, .btn:active:before {
+.btn:hover:before, .btn:focus:before, .btn:active:before, input[type="submit"]:hover:before, input[type="submit"]:focus:before, input[type="submit"]:active:before {
  	-webkit-transform: scaleY(1);
  	transform: scaleY(1);
 }
