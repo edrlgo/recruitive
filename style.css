@@ -1343,6 +1343,12 @@ object {
 }
 */
 
+/* smallchat */
+#Smallchat, #Smallchat * {
+	top: 30%;
+	right: 3% !important;
+}
+
 /* responsive menu-button */
 @media screen and (max-width: 768px) {
 	#responsive-menu-button {
